@@ -114,7 +114,7 @@ export default function Home() {
 
                 <div className="container relative z-10 hero-container">
                     <div className="hero-content mx-auto text-center pt-0 pb-0">
-                        <div className="flex justify-center mb-1">
+                        <div className="flex justify-center mb-6">
                             <img src="/logo.png" alt="Jobkar Logo" width="64" height="64" className="object-contain" />
                         </div>
                         <h1 className="hero-title text-dark">
@@ -141,7 +141,7 @@ export default function Home() {
             </section>
 
             {/* 2. Newest Jobs For You */}
-            <section className="newest-jobs py-12 bg-white relative z-20 border-t border-gray-50">
+            <section className="newest-jobs pt-24 pb-12 bg-white relative z-20 border-t border-gray-50">
                 <div className="container">
                     <div className="text-center mb-8 relative">
                         <h2 className="text-4xl font-extrabold mb-4 text-dark tracking-tight">Newest <span className="text-primary">Jobs</span> For You</h2>
@@ -327,7 +327,7 @@ export default function Home() {
             </section>
 
             {/* 5. Trusted By */}
-            <section className="trusted-by pb-10 pt-16 bg-white">
+            <section className="trusted-by pb-10 pt-24 bg-white">
                 <div className="container max-w-[1000px] mx-auto">
                     <Link href="/trusted-partners" className="block outline-none">
                         <img src="/trusted-by.png" alt="Trusted By Companies" className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity" />
@@ -420,9 +420,9 @@ export default function Home() {
             {/* 7. Custom Get In Touch Section */}
             < section className="contact-section" >
                 <div className="contact-container">
-                    {/* Woman Illustration */}
-                    <div className="illustration woman-left">
-                        <img src="/woman-illustration.png" alt="Woman Professional" className="w-full h-auto" />
+                    {/* Left Illustration */}
+                    <div className="illustration left-side mobile-show">
+                        <img src="/left-side.png" alt="Left Illustration" className="w-full h-auto" />
                     </div>
 
                     {/* Contact Form Card */}
@@ -449,9 +449,9 @@ export default function Home() {
                         </form>
                     </div>
 
-                    {/* Man Illustration */}
-                    <div className="illustration man-right">
-                        <img src="/man-illustration.png" alt="Man Professional" className="w-full h-auto" />
+                    {/* Right Illustration */}
+                    <div className="illustration right-side mobile-show">
+                        <img src="/right-side.png" alt="Right Illustration" className="w-full h-auto" />
                     </div>
                 </div>
             </section >

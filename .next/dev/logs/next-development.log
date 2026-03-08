@@ -1,31 +1,1992 @@
-[00:00:04.890] Server  LOG     ✓ Ready in 3.7s
-[00:00:50.261] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:09.621] Server  LOG     ✓ Compiled in 51ms
-[00:02:15.266] Server  LOG     ✓ Compiled in 28ms
-[00:03:27.945] Server  LOG     ✓ Compiled in 95ms
-[00:03:32.775] Server  LOG     ✓ Compiled in 18ms
-[00:03:35.781] Server  LOG     ✓ Compiled in 26ms
-[00:16:47.583] Server  LOG     ✓ Compiled in 88ms
-[00:16:53.152] Server  LOG     ✓ Compiled in 42ms
-[00:25:02.219] Server  LOG     ✓ Compiled in 67ms
-[00:25:06.607] Server  LOG     ✓ Compiled in 8ms
-[00:25:25.711] Server  LOG     ✓ Compiled in 12ms
-[00:26:15.001] Server  LOG     ✓ Compiled in 15ms
-[00:27:08.404] Server  LOG     ✓ Compiled in 30ms
-[00:27:11.302] Server  LOG     ✓ Compiled in 7ms
-[00:28:15.693] Server  LOG     ✓ Compiled in 67ms
-[00:28:18.219] Server  LOG     ✓ Compiled in 35ms
-[00:29:07.988] Server  LOG     ✓ Compiled in 18ms
-[01:00:32.029] Server  LOG     ✓ Compiled in 34ms
-[01:04:04.951] Server  LOG     ✓ Compiled in 61ms
-[01:04:28.603] Server  LOG     ✓ Compiled in 33ms
-[01:04:57.538] Server  LOG     ✓ Compiled in 26ms
-[01:07:06.752] Server  LOG     ✓ Compiled in 43ms
-[01:07:11.415] Server  LOG     ✓ Compiled in 44ms
-[01:07:15.931] Server  LOG     ✓ Compiled in 26ms
-[01:07:26.714] Server  LOG     ✓ Compiled in 17ms
-[01:08:12.539] Server  LOG     ✓ Compiled in 7ms
-[01:08:35.333] Server  LOG     ✓ Compiled in 31ms
-[01:09:31.726] Server  LOG     ✓ Compiled in 34ms
-[01:09:38.353] Server  LOG     ✓ Compiled in 14ms
-[01:10:26.974] Server  LOG     ✓ Compiled in 10ms
+[00:00:03.728] Server  LOG     ✓ Ready in 2.4s
+[00:00:17.159] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:36.702] Server  LOG     ✓ Compiled in 1174ms
+[00:00:37.608] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:41.679] Server  LOG     ✓ Compiled in 146ms
+[00:00:53.917] Server  LOG     ✓ Compiled in 39ms
+[00:01:05.891] Server  LOG     ✓ Compiled in 27ms
+[00:01:13.240] Server  LOG     ✓ Compiled in 17ms
+[00:01:36.744] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:26.713] Server  LOG     ✓ Compiled in 259ms
+[00:11:58.277] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:31.990] Server  LOG     ✓ Compiled in 112ms
+[00:17:32.202] Browser ERROR   uncaughtError: ReferenceError: ActionSection is not defined
+[00:17:32.202] Browser ERROR   uncaughtError: ReferenceError: ActionSection is not defined
+[00:17:33.125] Browser ERROR   uncaughtError: ReferenceError: ActionSection is not defined
+[00:17:33.761] Server  LOG     ✓ Compiled in 167ms
+[00:17:33.776] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:17:34.469] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:17:34.470] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:17:35.868] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:35.984] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:36.065] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:59.179] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:46.253] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.263] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.293] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.307] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.343] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.359] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.376] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.387] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.403] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.414] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.432] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.446] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.461] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.478] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.488] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.497] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.512] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.527] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.548] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.575] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.599] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.614] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.642] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.663] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.679] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.708] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.716] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.731] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.751] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.760] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.768] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.778] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.793] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.803] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.813] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.823] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.842] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.853] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.881] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.911] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.937] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.966] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:46.992] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.003] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.013] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.038] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.047] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.054] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.069] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.078] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.086] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.096] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.111] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.127] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.142] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.153] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.163] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.175] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.190] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.198] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.211] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.222] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.228] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.238] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.253] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.263] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.284] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.299] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.328] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.346] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.378] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.390] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.408] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.426] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.442] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.460] Server  ERROR   ⨯ ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:22:47.481] Server  LOG     ✓ Compiled in 130ms
+[00:22:47.688] Browser ERROR   ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:48.072] Browser ERROR   ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:48.072] Browser ERROR   ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:48.074] Browser ERROR   ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:48.243] Browser ERROR   ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:48.243] Browser ERROR   ./OneDrive/Desktop/freelancing/src/app/page.tsx:5:1
+Module not found: Can't resolve '../components/ActionSection'
+  3 | import { useEffect } from 'react';
+  4 | import './Home.css';
+> 5 | import ActionSection from '../components/ActionSection';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const HERO_DATA = {
+  8 |     title: "Dream Job",
+
+Import traces:
+  Client Component Browser:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component Browser]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Client Component SSR]
+    ./OneDrive/Desktop/freelancing/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:22:59.362] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:03.197] Server  LOG     ✓ Compiled in 19ms
+[00:25:05.261] Server  LOG     ✓ Compiled in 56ms
+[00:25:27.992] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:02.153] Server  LOG     ✓ Compiled in 19ms
+[00:29:21.844] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:25.325] Server  LOG     ✓ Compiled in 19ms
+[00:33:23.835] Server  LOG     ✓ Compiled in 26ms
+[00:34:41.893] Server  LOG     ✓ Compiled in 18ms
+[00:37:02.206] Server  LOG     ✓ Compiled in 81ms
+[00:37:59.328] Server  LOG     ✓ Compiled in 21ms
+[00:39:57.795] Server  LOG     ✓ Compiled in 25ms
+[00:43:00.247] Server  LOG     ✓ Compiled in 42ms
+[00:43:06.809] Server  LOG     ✓ Compiled in 23ms
+[00:45:09.691] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:08.270] Server  LOG     ✓ Compiled in 38ms
+[00:53:25.941] Server  LOG     ✓ Compiled in 72ms
+[00:54:38.768] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:34.471] Server  LOG     ✓ Compiled in 12ms
+[00:57:44.470] Server  LOG     ✓ Compiled in 12ms
+[00:58:56.710] Server  LOG     ✓ Compiled in 12ms
+[01:00:16.176] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:01:32.545] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:01:36.026] Server  LOG     ○ Compiling /jobs/[id] ...
