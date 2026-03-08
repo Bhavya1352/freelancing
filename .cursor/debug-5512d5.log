@@ -1,0 +1,2 @@
+{"sessionId":"5512d5","runId":"hero-layout","hypothesisId":"layout-images","location":"src/app/page.tsx:80","message":"Hero section rendered with side images","data":{"leftImage":"/hero-section1.png","rightImage":"/hero-section3.png"},"timestamp":1772977465158}
+{"sessionId":"5512d5","runId":"hero-bg","hypothesisId":"bg-uses-hero-1-and-3","location":"src/app/page.tsx:80","message":"Hero background illustrations rendered","data":{"leftImage":"/hero-1.png","rightImage":"/hero-3.png"},"timestamp":1772977622811}

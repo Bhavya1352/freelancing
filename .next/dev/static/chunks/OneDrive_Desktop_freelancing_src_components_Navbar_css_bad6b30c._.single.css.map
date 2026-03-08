@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/OneDrive/Desktop/freelancing/src/components/Navbar.css"],"sourcesContent":[".navbar {\r\n    padding: 24px 0;\r\n    background-color: #F9FAFB;\r\n    border-bottom: none;\r\n    position: relative;\r\n    z-index: 50;\r\n}\r\n\r\n.logo {\r\n    text-decoration: none;\r\n}\r\n\r\n.logo .text-dark {\r\n    color: var(--text-dark);\r\n}\r\n\r\n.nav-links a {\r\n    transition: color 0.2s;\r\n}\r\n\r\n.nav-links a:hover,\r\n.nav-links a.active {\r\n    color: var(--primary);\r\n}\r\n\r\n.hover-primary {\r\n    transition: color 0.2s;\r\n}\r\n\r\n.hover-primary:hover {\r\n    color: var(--primary);\r\n}"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;AAIA;;;;AAIA;;;;AAIA;;;;AAKA;;;;AAIA"}}]
+}

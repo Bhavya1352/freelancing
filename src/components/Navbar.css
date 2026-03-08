@@ -1,0 +1,32 @@
+.navbar {
+    padding: 24px 0;
+    background-color: #F9FAFB;
+    border-bottom: none;
+    position: relative;
+    z-index: 50;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.logo .text-dark {
+    color: var(--text-dark);
+}
+
+.nav-links a {
+    transition: color 0.2s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: var(--primary);
+}
+
+.hover-primary {
+    transition: color 0.2s;
+}
+
+.hover-primary:hover {
+    color: var(--primary);
+}
