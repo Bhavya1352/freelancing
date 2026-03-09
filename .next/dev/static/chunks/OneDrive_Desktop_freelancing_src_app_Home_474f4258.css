@@ -1866,6 +1866,38 @@
     gap: 30px;
     padding: 0 20px;
   }
+
+  .testimonials-container {
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    justify-content: flex-start;
+    gap: 16px;
+    padding: 20px;
+    overflow-x: auto;
+  }
+
+  .testimonials-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .testimonial-card-v3, .testimonial-card-side {
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    width: 85vw;
+    opacity: 1 !important;
+    margin: 0 !important;
+    display: block !important;
+  }
+
+  .testimonial-card-v3 img, .testimonial-card-side img {
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  .birds-decoration {
+    display: none !important;
+  }
 }
 
 @media (max-width: 480px) {

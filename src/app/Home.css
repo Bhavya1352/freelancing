@@ -1939,6 +1939,41 @@
         padding: 0 20px;
         gap: 30px;
     }
+
+    /* Testimonials Slider on Mobile */
+    .testimonials-container {
+        justify-content: flex-start;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 16px;
+        padding: 20px;
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+    }
+
+    .testimonials-container::-webkit-scrollbar {
+        display: none; /* Chrome, Safari and Opera */
+    }
+
+    .testimonial-card-v3,
+    .testimonial-card-side {
+        width: 85vw;
+        flex-shrink: 0;
+        margin: 0 !important;
+        scroll-snap-align: center;
+        opacity: 1 !important;
+        display: block !important;
+    }
+
+    .testimonial-card-v3 img,
+    .testimonial-card-side img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .birds-decoration {
+        display: none !important;
+    }
 }
 
 @media (max-width: 480px) {
