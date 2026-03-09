@@ -668,6 +668,7 @@
 @media (max-width: 480px) {
     .hero-title {
         font-size: 28px !important;
+        line-height: 1.2 !important;
     }
 }
 
@@ -676,19 +677,26 @@
     color: #64748B !important;
     line-height: 1.6 !important;
     font-weight: 500;
-    margin-top: 32px;
+    margin-top: 24px;
 }
 
 .highlight-pill {
     background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%);
     color: #1D4ED8;
-    padding: 2px 20px;
+    padding: 2px 14px;
     border-radius: 12px;
     display: inline-block;
     border: 1px solid #BFDBFE;
     position: relative;
     vertical-align: middle;
     box-shadow: 0 4px 14px 0 rgba(37, 99, 235, 0.1);
+}
+
+@media (max-width: 480px) {
+    .highlight-pill {
+        padding: 2px 10px;
+        font-size: 0.9em;
+    }
 }
 
 /* Custom Search Input */
@@ -1167,14 +1175,15 @@
     }
 
     .hero-subtitle {
-        font-size: 15px !important;
+        font-size: 14px !important;
         padding: 0 16px;
-        margin-top: 16px !important;
-        margin-bottom: 24px !important;
+        margin-top: 12px !important;
+        margin-bottom: 20px !important;
     }
 
     .jobs-grid-3 {
         grid-template-columns: 1fr;
+        gap: 16px;
     }
 
     .pill-dark {
@@ -1200,7 +1209,8 @@
     }
 
     .features-grid {
-        grid-template_columns: 1fr;
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 
     .text-4xl {
@@ -1540,6 +1550,42 @@ textarea.form-input {
 /* Padding Utilities */
 .pt-24 {
     padding-top: 96px;
+}
+
+@media (max-width: 768px) {
+    .pt-24 {
+        padding-top: 48px;
+    }
+    
+    .pt-16, .py-16 {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .pt-12, .py-12 {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .pt-8 {
+        padding-top: 16px;
+    }
+
+    .pb-12 {
+        padding-bottom: 24px;
+    }
+
+    .pb-10 {
+        padding-bottom: 20px;
+    }
+
+    .trusted-by {
+        padding: 24px 0 !important;
+    }
+
+    .trusted-by img {
+        transform: scale(1.2);
+    }
 }
 
 .pb-12 {
