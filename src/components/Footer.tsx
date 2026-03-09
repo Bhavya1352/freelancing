@@ -14,7 +14,7 @@ export default function Footer() {
                             <span className="font-semibold text-white" style={{ fontSize: '24px' }}>Jobkar</span>
                         </Link>
                         <p className="text-footer-light text-sm mb-4" style={{ lineHeight: '1.6' }}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Jobkar is the leading platform connecting talented individuals with top-tier companies across India. We simplify the hiring process with AI-driven matching and a seamless user experience.
                         </p>
                     </div>
 
