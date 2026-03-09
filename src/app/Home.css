@@ -667,8 +667,8 @@
 
 @media (max-width: 480px) {
     .hero-title {
-        font-size: 28px !important;
-        line-height: 1.2 !important;
+        font-size: 24px !important;
+        line-height: 1.25 !important;
     }
 }
 
@@ -1093,8 +1093,8 @@
 @media (max-width: 1024px) {
     .hero-section {
         height: auto;
-        min-height: 100vh;
-        padding: 40px 0;
+        min-height: auto;
+        padding: 20px 0 32px;
     }
 
     .hero-container {
@@ -1554,7 +1554,7 @@ textarea.form-input {
 
 @media (max-width: 768px) {
     .pt-24 {
-        padding-top: 48px;
+        padding-top: 32px;
     }
     
     .pt-16, .py-16 {
