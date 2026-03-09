@@ -118,7 +118,7 @@ export default function Home() {
                             <img src="/logo.png" alt="Jobkar Logo" width="64" height="64" className="object-contain" />
                         </div>
                         <h1 className="hero-title text-dark">
-                            Get Your <span className="highlight-pill mx-2">{HERO_DATA.title}</span> With <br /> <span className="text-primary tracking-tight">JobKar.</span>
+                            Get Your <span className="highlight-pill mx-2">{HERO_DATA.title}</span> <br /> With <span className="text-primary tracking-tight">JobKar.</span>
                         </h1>
                         <p className="hero-subtitle text-gray mt-6 mb-8 max-w-2xl mx-auto leading-relaxed">
                             {HERO_DATA.subtitle}
