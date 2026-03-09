@@ -650,18 +650,20 @@
 @media (max-width: 768px) {
   .hero-title {
     margin-bottom: 12px;
-    font-size: 36px !important;
+    font-size: 42px !important;
+    line-height: 1.2 !important;
   }
 }
 
 @media (max-width: 480px) {
   .hero-title {
     font-size: 28px !important;
+    line-height: 1.25 !important;
   }
 }
 
 .hero-subtitle {
-  margin-top: 32px;
+  margin-top: 24px;
   font-weight: 500;
   color: #64748b !important;
   font-size: 18px !important;
@@ -674,10 +676,17 @@
   background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
   border: 1px solid #bfdbfe;
   border-radius: 12px;
-  padding: 2px 20px;
+  padding: 2px 14px;
   display: inline-block;
   position: relative;
   box-shadow: 0 4px 14px #2563eb1a;
+}
+
+@media (max-width: 480px) {
+  .highlight-pill {
+    padding: 2px 10px;
+    font-size: .9em;
+  }
 }
 
 .search-input::placeholder {
@@ -1068,8 +1077,8 @@
 @media (max-width: 1024px) {
   .hero-section {
     height: auto;
-    min-height: 100vh;
-    padding: 40px 0;
+    min-height: auto;
+    padding: 20px 0 32px;
   }
 
   .hero-container {
@@ -1146,13 +1155,14 @@
 
   .hero-subtitle {
     padding: 0 16px;
-    margin-top: 16px !important;
-    margin-bottom: 24px !important;
-    font-size: 15px !important;
+    margin-top: 12px !important;
+    margin-bottom: 20px !important;
+    font-size: 14px !important;
   }
 
   .jobs-grid-3 {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
 
   .pill-dark {
@@ -1166,7 +1176,8 @@
   }
 
   .features-grid {
-    grid-template_columns: 1fr;
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .text-4xl {
@@ -1501,6 +1512,42 @@ textarea.form-input {
 
 .pt-24 {
   padding-top: 96px;
+}
+
+@media (max-width: 768px) {
+  .pt-24 {
+    padding-top: 32px;
+  }
+
+  .pt-16, .py-16 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .pt-12, .py-12 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .pt-8 {
+    padding-top: 16px;
+  }
+
+  .pb-12 {
+    padding-bottom: 24px;
+  }
+
+  .pb-10 {
+    padding-bottom: 20px;
+  }
+
+  .trusted-by {
+    padding: 24px 0 !important;
+  }
+
+  .trusted-by img {
+    transform: scale(1.2);
+  }
 }
 
 .pb-12 {

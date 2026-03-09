@@ -134,7 +134,9 @@ export default function Home() {
                                 <input type="text" placeholder={HERO_DATA.searchPlaceholders.location} className="search-input w-full text-base bg-transparent border-none outline-none font-medium text-dark h-full" />
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" strokeWidth="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
                             </div>
-                            <button className="flex-shrink-0 font-bold text-base px-8 h-full rounded-full shadow-lg hover:-translate-y-1 hover:shadow-xl transition-all ml-1 text-white border-none" style={{ background: 'linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%)' }}>Search my job</button>
+                            <Link href="/jobs" className="flex-shrink-0 h-full">
+                                <button className="font-bold text-base px-8 h-full rounded-full shadow-lg hover:-translate-y-1 hover:shadow-xl transition-all ml-1 text-white border-none" style={{ background: 'linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%)' }}>Search my job</button>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -438,13 +438,13 @@ function Home() {
                                             lineNumber: 121,
                                             columnNumber: 38
                                         }, this),
-                                        " With ",
+                                        " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
                                             lineNumber: 121,
-                                            columnNumber: 106
+                                            columnNumber: 101
                                         }, this),
-                                        " ",
+                                        " With ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "text-primary tracking-tight",
                                             children: "JobKar."
@@ -588,12 +588,20 @@ function Home() {
                                             lineNumber: 132,
                                             columnNumber: 29
                                         }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            className: "flex-shrink-0 font-bold text-base px-8 h-full rounded-full shadow-lg hover:-translate-y-1 hover:shadow-xl transition-all ml-1 text-white border-none",
-                                            style: {
-                                                background: 'linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%)'
-                                            },
-                                            children: "Search my job"
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/jobs",
+                                            className: "flex-shrink-0 h-full",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                className: "font-bold text-base px-8 h-full rounded-full shadow-lg hover:-translate-y-1 hover:shadow-xl transition-all ml-1 text-white border-none",
+                                                style: {
+                                                    background: 'linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%)'
+                                                },
+                                                children: "Search my job"
+                                            }, void 0, false, {
+                                                fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
+                                                lineNumber: 138,
+                                                columnNumber: 33
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
                                             lineNumber: 137,
@@ -639,14 +647,14 @@ function Home() {
                                             children: "Jobs"
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 147,
+                                            lineNumber: 149,
                                             columnNumber: 102
                                         }, this),
                                         " For You"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                    lineNumber: 147,
+                                    lineNumber: 149,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -654,7 +662,7 @@ function Home() {
                                     children: "Get the fastest application so that your name is above other"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                    lineNumber: 148,
+                                    lineNumber: 150,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -675,29 +683,29 @@ function Home() {
                                                     d: "M9 18l6-6-6-6"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 150,
+                                                    lineNumber: 152,
                                                     columnNumber: 234
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                lineNumber: 150,
+                                                lineNumber: 152,
                                                 columnNumber: 134
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                        lineNumber: 150,
+                                        lineNumber: 152,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                    lineNumber: 149,
+                                    lineNumber: 151,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                            lineNumber: 146,
+                            lineNumber: 148,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -720,7 +728,7 @@ function Home() {
                                                 children: job.logo
                                             }, void 0, false, {
                                                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                lineNumber: 159,
+                                                lineNumber: 161,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -731,7 +739,7 @@ function Home() {
                                                         children: job.company
                                                     }, void 0, false, {
                                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                        lineNumber: 165,
+                                                        lineNumber: 167,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -739,7 +747,7 @@ function Home() {
                                                         children: job.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                        lineNumber: 166,
+                                                        lineNumber: 168,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -749,12 +757,12 @@ function Home() {
                                                                 children: tag
                                                             }, tag, false, {
                                                                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                                lineNumber: 170,
+                                                                lineNumber: 172,
                                                                 columnNumber: 49
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                        lineNumber: 168,
+                                                        lineNumber: 170,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -772,7 +780,7 @@ function Home() {
                                                                         d: "M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                                        lineNumber: 178,
+                                                                        lineNumber: 180,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
@@ -781,20 +789,20 @@ function Home() {
                                                                         r: "3"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                                        lineNumber: 179,
+                                                                        lineNumber: 181,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                                lineNumber: 177,
+                                                                lineNumber: 179,
                                                                 columnNumber: 45
                                                             }, this),
                                                             job.location
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                        lineNumber: 176,
+                                                        lineNumber: 178,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -805,7 +813,7 @@ function Home() {
                                                                 children: job.salary
                                                             }, void 0, false, {
                                                                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                                lineNumber: 185,
+                                                                lineNumber: 187,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -813,46 +821,46 @@ function Home() {
                                                                 children: "1 hour ago"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                                lineNumber: 186,
+                                                                lineNumber: 188,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                        lineNumber: 184,
+                                                        lineNumber: 186,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                lineNumber: 164,
+                                                lineNumber: 166,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                        lineNumber: 157,
+                                        lineNumber: 159,
                                         columnNumber: 33
                                     }, this)
                                 }, job.id, false, {
                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                    lineNumber: 156,
+                                    lineNumber: 158,
                                     columnNumber: 29
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                            lineNumber: 154,
+                            lineNumber: 156,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                    lineNumber: 145,
+                    lineNumber: 147,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                lineNumber: 144,
+                lineNumber: 146,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -865,7 +873,7 @@ function Home() {
                             children: "WHY CHOOSE JOBKAR?"
                         }, void 0, false, {
                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                            lineNumber: 199,
+                            lineNumber: 201,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -873,7 +881,7 @@ function Home() {
                             children: "Unlock a seamless hiring experience with Jobkar's powerful tools and features."
                         }, void 0, false, {
                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                            lineNumber: 200,
+                            lineNumber: 202,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -887,7 +895,7 @@ function Home() {
                                             children: "Global Reach"
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 207,
+                                            lineNumber: 209,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -895,7 +903,7 @@ function Home() {
                                             children: "Find and hire talent across India with Jobkar's wide network of job seekers."
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 208,
+                                            lineNumber: 210,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -907,12 +915,12 @@ function Home() {
                                                         children: "Pan-India Reach"
                                                     }, void 0, false, {
                                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                        lineNumber: 213,
+                                                        lineNumber: 215,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 212,
+                                                    lineNumber: 214,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -921,12 +929,12 @@ function Home() {
                                                         children: "Endless Talent"
                                                     }, void 0, false, {
                                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                        lineNumber: 216,
+                                                        lineNumber: 218,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 215,
+                                                    lineNumber: 217,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -935,24 +943,24 @@ function Home() {
                                                         children: "Broad Network"
                                                     }, void 0, false, {
                                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                        lineNumber: 219,
+                                                        lineNumber: 221,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 218,
+                                                    lineNumber: 220,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 211,
+                                            lineNumber: 213,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                    lineNumber: 206,
+                                    lineNumber: 208,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
@@ -963,7 +971,7 @@ function Home() {
                                             children: "Easy Automation"
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 226,
+                                            lineNumber: 228,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -971,7 +979,7 @@ function Home() {
                                             children: "Let your hiring process run on autopilot with smart workflows and integrations."
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 227,
+                                            lineNumber: 229,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -982,7 +990,7 @@ function Home() {
                                                     children: "Q"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 231,
+                                                    lineNumber: 233,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -990,7 +998,7 @@ function Home() {
                                                     children: "H"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 232,
+                                                    lineNumber: 234,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -998,7 +1006,7 @@ function Home() {
                                                     children: "P"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 233,
+                                                    lineNumber: 235,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1006,7 +1014,7 @@ function Home() {
                                                     children: "W"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 234,
+                                                    lineNumber: 236,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1014,7 +1022,7 @@ function Home() {
                                                     children: "JK"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 235,
+                                                    lineNumber: 237,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1022,19 +1030,19 @@ function Home() {
                                                     children: "bob"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 236,
+                                                    lineNumber: 238,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 230,
+                                            lineNumber: 232,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                    lineNumber: 225,
+                                    lineNumber: 227,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
@@ -1045,7 +1053,7 @@ function Home() {
                                             children: "Compliant"
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 242,
+                                            lineNumber: 244,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1053,7 +1061,7 @@ function Home() {
                                             children: "Stay compliant with regulations and meet industry standards effortlessly."
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 243,
+                                            lineNumber: 245,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1065,12 +1073,12 @@ function Home() {
                                                         className: "compliance-ring-fill"
                                                     }, void 0, false, {
                                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                        lineNumber: 248,
+                                                        lineNumber: 250,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 247,
+                                                    lineNumber: 249,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1078,19 +1086,19 @@ function Home() {
                                                     children: "Verified"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 250,
+                                                    lineNumber: 252,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 246,
+                                            lineNumber: 248,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                    lineNumber: 241,
+                                    lineNumber: 243,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
@@ -1101,7 +1109,7 @@ function Home() {
                                             children: "Affordable"
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 256,
+                                            lineNumber: 258,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1109,7 +1117,7 @@ function Home() {
                                             children: "Cost-effective solutions for businesses of any size. No hidden fees, just clear pricing."
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 257,
+                                            lineNumber: 259,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1120,26 +1128,26 @@ function Home() {
                                                     children: "No hidden fees!"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 261,
+                                                    lineNumber: 263,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "affordable-graph"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 262,
+                                                    lineNumber: 264,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 260,
+                                            lineNumber: 262,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                    lineNumber: 255,
+                                    lineNumber: 257,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
@@ -1150,7 +1158,7 @@ function Home() {
                                             children: "Centralized Management"
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 268,
+                                            lineNumber: 270,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1158,7 +1166,7 @@ function Home() {
                                             children: "Manage your job postings, applications, and company details from one smart dashboard."
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 269,
+                                            lineNumber: 271,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1169,7 +1177,7 @@ function Home() {
                                                     children: "Irish Life"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 273,
+                                                    lineNumber: 275,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1177,7 +1185,7 @@ function Home() {
                                                     children: "Smart"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 274,
+                                                    lineNumber: 276,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1185,7 +1193,7 @@ function Home() {
                                                     children: "Allianz"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 275,
+                                                    lineNumber: 277,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1193,7 +1201,7 @@ function Home() {
                                                     children: "Health"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 276,
+                                                    lineNumber: 278,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1201,36 +1209,36 @@ function Home() {
                                                     children: "Vitality"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 277,
+                                                    lineNumber: 279,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 272,
+                                            lineNumber: 274,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                    lineNumber: 267,
+                                    lineNumber: 269,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                            lineNumber: 204,
+                            lineNumber: 206,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                    lineNumber: 198,
+                    lineNumber: 200,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                lineNumber: 197,
+                lineNumber: 199,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1247,7 +1255,7 @@ function Home() {
                             children: "What's New at JobKar?"
                         }, void 0, false, {
                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                            lineNumber: 287,
+                            lineNumber: 289,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1272,7 +1280,7 @@ function Home() {
                                                             fill: item.color
                                                         }, void 0, false, {
                                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                            lineNumber: 294,
+                                                            lineNumber: 296,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
@@ -1282,7 +1290,7 @@ function Home() {
                                                             fill: item.color
                                                         }, void 0, false, {
                                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                            lineNumber: 295,
+                                                            lineNumber: 297,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
@@ -1292,7 +1300,7 @@ function Home() {
                                                             fill: item.color
                                                         }, void 0, false, {
                                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                            lineNumber: 296,
+                                                            lineNumber: 298,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -1301,13 +1309,13 @@ function Home() {
                                                             strokeWidth: "2"
                                                         }, void 0, false, {
                                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                            lineNumber: 297,
+                                                            lineNumber: 299,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 293,
+                                                    lineNumber: 295,
                                                     columnNumber: 41
                                                 }, this),
                                                 item.icon === "companies" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1326,20 +1334,20 @@ function Home() {
                                                             fillOpacity: "0.2"
                                                         }, void 0, false, {
                                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                            lineNumber: 302,
+                                                            lineNumber: 304,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                             d: "M4 12h16M8 7V3h8v4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                            lineNumber: 303,
+                                                            lineNumber: 305,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 301,
+                                                    lineNumber: 303,
                                                     columnNumber: 41
                                                 }, this),
                                                 item.icon === "ai" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1358,27 +1366,27 @@ function Home() {
                                                             fillOpacity: "0.2"
                                                         }, void 0, false, {
                                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                            lineNumber: 308,
+                                                            lineNumber: 310,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                             d: "M9 18h6"
                                                         }, void 0, false, {
                                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                            lineNumber: 309,
+                                                            lineNumber: 311,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                             d: "M10 22h4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                            lineNumber: 310,
+                                                            lineNumber: 312,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 307,
+                                                    lineNumber: 309,
                                                     columnNumber: 41
                                                 }, this),
                                                 item.icon === "click" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1391,18 +1399,18 @@ function Home() {
                                                         d: "M22 2L13.8 6.1C13.29 6.35 12.71 6.35 12.2 6.1L4 2V12C4 18 8.8 22 13 22C17.2 22 22 18 22 12V2Z"
                                                     }, void 0, false, {
                                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                        lineNumber: 315,
+                                                        lineNumber: 317,
                                                         columnNumber: 45
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 314,
+                                                    lineNumber: 316,
                                                     columnNumber: 41
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 291,
+                                            lineNumber: 293,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1411,36 +1419,36 @@ function Home() {
                                                 item.title.split(' ').slice(0, 2).join(' '),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 320,
+                                                    lineNumber: 322,
                                                     columnNumber: 82
                                                 }, this),
                                                 item.title.split(' ').slice(2).join(' ')
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 319,
+                                            lineNumber: 321,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, item.id, true, {
                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                    lineNumber: 290,
+                                    lineNumber: 292,
                                     columnNumber: 29
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                            lineNumber: 288,
+                            lineNumber: 290,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                    lineNumber: 286,
+                    lineNumber: 288,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                lineNumber: 285,
+                lineNumber: 287,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1456,22 +1464,22 @@ function Home() {
                             className: "w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
                         }, void 0, false, {
                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                            lineNumber: 333,
+                            lineNumber: 335,
                             columnNumber: 25
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                        lineNumber: 332,
+                        lineNumber: 334,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                    lineNumber: 331,
+                    lineNumber: 333,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                lineNumber: 330,
+                lineNumber: 332,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1491,14 +1499,14 @@ function Home() {
                                             children: "JobKar"
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 342,
+                                            lineNumber: 344,
                                             columnNumber: 62
                                         }, this),
                                         " Stands Out"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                    lineNumber: 342,
+                                    lineNumber: 344,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1506,13 +1514,13 @@ function Home() {
                                     children: "Say goodbye to clunky, outdated systems. Jobkar is here to make your hiring process seamless, efficient, and future-proof."
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                    lineNumber: 343,
+                                    lineNumber: 345,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                            lineNumber: 341,
+                            lineNumber: 343,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1531,27 +1539,27 @@ function Home() {
                                                     height: "32"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 350,
+                                                    lineNumber: 352,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "Jobkar"
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 351,
+                                                    lineNumber: 353,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 349,
+                                            lineNumber: 351,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             children: "FEATURES INCLUDED :"
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 353,
+                                            lineNumber: 355,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1574,35 +1582,35 @@ function Home() {
                                                                     points: "20 6 9 17 4 12"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                                    lineNumber: 358,
+                                                                    lineNumber: 360,
                                                                     columnNumber: 183
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                                lineNumber: 358,
+                                                                lineNumber: 360,
                                                                 columnNumber: 45
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                            lineNumber: 357,
+                                                            lineNumber: 359,
                                                             columnNumber: 41
                                                         }, this),
                                                         feature
                                                     ]
                                                 }, idx, true, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 356,
+                                                    lineNumber: 358,
                                                     columnNumber: 37
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 354,
+                                            lineNumber: 356,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                    lineNumber: 348,
+                                    lineNumber: 350,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1610,7 +1618,7 @@ function Home() {
                                     children: "VS"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                    lineNumber: 367,
+                                    lineNumber: 369,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1628,19 +1636,19 @@ function Home() {
                                                 children: "Other Softwares"
                                             }, void 0, false, {
                                                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                lineNumber: 372,
+                                                lineNumber: 374,
                                                 columnNumber: 33
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 371,
+                                            lineNumber: 373,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             children: "FEATURES NOT INCLUDED :"
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 374,
+                                            lineNumber: 376,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1667,7 +1675,7 @@ function Home() {
                                                                         y2: "18"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                                        lineNumber: 379,
+                                                                        lineNumber: 381,
                                                                         columnNumber: 183
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
@@ -1677,53 +1685,53 @@ function Home() {
                                                                         y2: "18"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                                        lineNumber: 379,
+                                                                        lineNumber: 381,
                                                                         columnNumber: 226
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                                lineNumber: 379,
+                                                                lineNumber: 381,
                                                                 columnNumber: 45
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                            lineNumber: 378,
+                                                            lineNumber: 380,
                                                             columnNumber: 41
                                                         }, this),
                                                         feature
                                                     ]
                                                 }, idx, true, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 377,
+                                                    lineNumber: 379,
                                                     columnNumber: 37
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 375,
+                                            lineNumber: 377,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                    lineNumber: 370,
+                                    lineNumber: 372,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                            lineNumber: 346,
+                            lineNumber: 348,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                    lineNumber: 340,
+                    lineNumber: 342,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                lineNumber: 339,
+                lineNumber: 341,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1736,17 +1744,17 @@ function Home() {
                         className: "w-full h-auto rounded-3xl"
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                        lineNumber: 395,
+                        lineNumber: 397,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                    lineNumber: 394,
+                    lineNumber: 396,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                lineNumber: 393,
+                lineNumber: 395,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1759,17 +1767,17 @@ function Home() {
                         className: "w-full h-auto"
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                        lineNumber: 402,
+                        lineNumber: 404,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                    lineNumber: 401,
+                    lineNumber: 403,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                lineNumber: 400,
+                lineNumber: 402,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1782,17 +1790,17 @@ function Home() {
                         className: "w-full h-auto cursor-pointer hover:scale-[1.01] transition-transform duration-700"
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                        lineNumber: 409,
+                        lineNumber: 411,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                    lineNumber: 408,
+                    lineNumber: 410,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                lineNumber: 407,
+                lineNumber: 409,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1805,17 +1813,17 @@ function Home() {
                         className: "w-full h-auto"
                     }, void 0, false, {
                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                        lineNumber: 416,
+                        lineNumber: 418,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                    lineNumber: 415,
+                    lineNumber: 417,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                lineNumber: 414,
+                lineNumber: 416,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1831,12 +1839,12 @@ function Home() {
                                 className: "w-full h-auto"
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                lineNumber: 425,
+                                lineNumber: 427,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                            lineNumber: 424,
+                            lineNumber: 426,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1847,14 +1855,14 @@ function Home() {
                                     children: "Stay in Contact"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                    lineNumber: 430,
+                                    lineNumber: 432,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     children: "Get in Touch"
                                 }, void 0, false, {
                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                    lineNumber: 431,
+                                    lineNumber: 433,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -1872,12 +1880,12 @@ function Home() {
                                                         className: "form-input"
                                                     }, void 0, false, {
                                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                        lineNumber: 436,
+                                                        lineNumber: 438,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 435,
+                                                    lineNumber: 437,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1888,12 +1896,12 @@ function Home() {
                                                         className: "form-input"
                                                     }, void 0, false, {
                                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                        lineNumber: 439,
+                                                        lineNumber: 441,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 438,
+                                                    lineNumber: 440,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1904,12 +1912,12 @@ function Home() {
                                                         className: "form-input"
                                                     }, void 0, false, {
                                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                        lineNumber: 442,
+                                                        lineNumber: 444,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 441,
+                                                    lineNumber: 443,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1919,18 +1927,18 @@ function Home() {
                                                         className: "form-input"
                                                     }, void 0, false, {
                                                         fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                        lineNumber: 445,
+                                                        lineNumber: 447,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                                    lineNumber: 444,
+                                                    lineNumber: 446,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 434,
+                                            lineNumber: 436,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1939,19 +1947,19 @@ function Home() {
                                             children: "Send Message"
                                         }, void 0, false, {
                                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                            lineNumber: 448,
+                                            lineNumber: 450,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                    lineNumber: 433,
+                                    lineNumber: 435,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                            lineNumber: 429,
+                            lineNumber: 431,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$OneDrive$2f$Desktop$2f$freelancing$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1962,23 +1970,23 @@ function Home() {
                                 className: "w-full h-auto"
                             }, void 0, false, {
                                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                                lineNumber: 454,
+                                lineNumber: 456,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                            lineNumber: 453,
+                            lineNumber: 455,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                    lineNumber: 422,
+                    lineNumber: 424,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/OneDrive/Desktop/freelancing/src/app/page.tsx",
-                lineNumber: 421,
+                lineNumber: 423,
                 columnNumber: 13
             }, this)
         ]
