@@ -550,19 +550,9 @@ export default function Home() {
                     <h2 className="voices-title">Voices Of Experiences</h2>
 
                     <div className="testimonials-container">
-                        {/* Left Peek Image */}
-                        <div className="testimonial-card-side">
-                            <img src="/card1.png" alt="Testimonial 1" />
-                        </div>
-
                         {/* Main Center Image */}
                         <div className="testimonial-card-v3">
                             <img src="/card2.png" alt="Main Testimonial" />
-                        </div>
-
-                        {/* Right Peek Image */}
-                        <div className="testimonial-card-side">
-                            <img src="/card3.png" alt="Testimonial 3" />
                         </div>
                     </div>
 
