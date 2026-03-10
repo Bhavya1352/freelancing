@@ -144,3 +144,9 @@ button {
   background-color: var(--border-color);
   width: 100%;
 }
+
+/* Hide Next.js dev indicator */
+#__next-build-watcher,
+.next-dev-indicator {
+  display: none !important;
+}
