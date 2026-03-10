@@ -16,7 +16,7 @@ const STATS_DATA = [
     { id: 1, title: "Thousands of job seekers daily.", color: "#F59E0B", icon: "seekers" },
     { id: 2, title: "500+ companies posting jobs.", color: "#3B82F6", icon: "companies" },
     { id: 3, title: "AI matches perfect opportunities.", color: "#E5E7EB", icon: "ai" },
-    { id: 4, title: "One-click job applications.", color: "#F59E0B", icon: "click" }
+    { id: 4, title: "One-click job applications.", color: "#F59E0B", icon: "logo" }
 ];
 
 const WHY_US_DATA = {
@@ -100,25 +100,50 @@ export default function Home() {
             {/* 1. Hero Section */}
             <section className="hero-section relative" style={{ backgroundColor: '#F9FAFB' }}>
                 <div className="absolute inset-0 z-0 pointer-events-none w-full h-full flex items-start justify-between overflow-hidden hero-bg-wrapper">
-                    <img
-                        src="/hero-1.png"
-                        alt="Job seeker illustration"
-                        className="hero-bg-img hero-bg-left"
-                    />
-                    <img
-                        src="/hero-3.png"
-                        alt="Hiring manager illustration"
-                        className="hero-bg-img hero-bg-right"
-                    />
+                    <div className="relative hero-side-illustration left-0 h-full flex items-center">
+                        <img
+                            src="/hero section left.png"
+                            alt="Job seeker illustration"
+                            className="hero-bg-img hero-bg-left"
+                        />
+                        <img
+                            src="/hero section left plant.png"
+                            alt="plant"
+                            className="absolute bottom-[20%] right-[-20px] w-[140px] hero-plant hero-plant-left"
+                        />
+                    </div>
+                    <div className="relative hero-side-illustration right-0 h-full flex items-center gap-4">
+                        <img
+                            src="/hero section right1.png"
+                            alt="Hiring manager illustration"
+                            className="hero-bg-img hero-bg-right1"
+                        />
+                        <img
+                            src="/hero section right2.png"
+                            alt="Hiring manager illustration"
+                            className="hero-bg-img hero-bg-right2"
+                        />
+                        <img
+                            src="/hero section left plant.png"
+                            alt="plant"
+                            className="absolute bottom-[20%] left-[-40px] w-[140px] hero-plant hero-plant-right"
+                        />
+                    </div>
+                </div>
+
+                {/* Decorative Lamps */}
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[1000px] pointer-events-none z-20 px-10 flex justify-between hero-lamps-wrap">
+                    <img src="/left lamp.png" alt="left lamp" className="w-[65px] h-auto object-contain" />
+                    <img src="/right lamp.png" alt="right lamp" className="w-[65px] h-auto object-contain" />
                 </div>
 
                 <div className="container relative z-10 hero-container">
                     <div className="hero-content mx-auto text-center pt-0 pb-0">
                         <div className="flex justify-center mb-6">
-                            <img src="/logo.png" alt="Jobkar Logo" width="64" height="64" className="object-contain" />
+                            <img src="/logo.png" alt="jobkar logo" width="64" height="64" className="object-contain" />
                         </div>
                         <h1 className="hero-title text-dark">
-                            Get Your <span className="highlight-pill mx-2">{HERO_DATA.title}</span> <br /> With <span className="text-primary tracking-tight">JobKar.</span>
+                            Get Your <span className="highlight-pill mx-2">{HERO_DATA.title}</span> With <br /> <span className="text-primary tracking-tight">jobkar.</span>
                         </h1>
                         <p className="hero-subtitle text-gray mt-6 mb-8 max-w-2xl mx-auto leading-relaxed">
                             {HERO_DATA.subtitle}
@@ -135,7 +160,7 @@ export default function Home() {
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" strokeWidth="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
                             </div>
                             <Link href="/jobs" className="flex-shrink-0 h-full">
-                                <button className="font-bold text-base px-8 h-full rounded-full shadow-lg hover:-translate-y-1 hover:shadow-xl transition-all ml-1 text-white border-none" style={{ background: 'linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%)' }}>Search my job</button>
+                                <button className="font-bold text-base px-8 h-full rounded-full shadow-lg hover:-translate-y-1 hover:shadow-xl transition-all ml-4 text-white border-none" style={{ background: 'linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%)' }}>Search my job</button>
                             </Link>
                         </div>
                     </div>
@@ -234,7 +259,9 @@ export default function Home() {
                                 <span className="feature-icon small pink">H</span>
                                 <span className="feature-icon small gray">P</span>
                                 <span className="feature-icon small blue">W</span>
-                                <span className="feature-icon large violet">JK</span>
+                                <span className="feature-icon large violet flex items-center justify-center">
+                                    <img src="/logo.png" alt="jobkar" width="24" height="24" className="object-contain" />
+                                </span>
                                 <span className="feature-icon small orange">bob</span>
                             </div>
                         </article>
@@ -285,9 +312,9 @@ export default function Home() {
 
             {/* 4. What's New at JobKar? */}
             <section className="whats-new pb-10 pt-6 bg-white">
-                <div className="container" style={{ maxWidth: '1000px', margin: '0 auto' }}>
-                    <h2 className="text-primary font-bold text-[13px] mb-3 text-left w-full pl-2">What's New at JobKar?</h2>
-                    <div className="flex flex-wrap md:flex-nowrap justify-between gap-3 w-full">
+                <div className="container" style={{ maxWidth: '1100px', margin: '0 auto' }}>
+                    <h2 className="text-primary font-bold text-[13px] mb-8 text-left w-full pl-2">What's New at jobkar?</h2>
+                    <div className="flex flex-nowrap justify-between gap-3 w-full">
                         {STATS_DATA.map((item) => (
                             <div key={item.id} className="pill-dark">
                                 <div className="flex-shrink-0 w-9 h-9 bg-black/20 rounded-full flex items-center justify-center border border-white/5">
@@ -312,15 +339,14 @@ export default function Home() {
                                             <path d="M10 22h4" />
                                         </svg>
                                     )}
-                                    {item.icon === "click" && (
-                                        <svg width="18" height="18" viewBox="0 0 24 24" fill={item.color} xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M22 2L13.8 6.1C13.29 6.35 12.71 6.35 12.2 6.1L4 2V12C4 18 8.8 22 13 22C17.2 22 22 18 22 12V2Z" />
-                                        </svg>
+                                    {item.icon === "logo" && (
+                                        <div className="flex items-center justify-center p-1.5 bg-white/20 rounded-full">
+                                            <img src="/logo.png" alt="jobkar" width="18" height="18" className="object-contain brightness-0 invert" />
+                                        </div>
                                     )}
                                 </div>
-                                <div className="text-[10px] sm:text-[11px] font-medium leading-[1.3] tracking-wide text-white/95">
-                                    {item.title.split(' ').slice(0, 2).join(' ')}<br />
-                                    {item.title.split(' ').slice(2).join(' ')}
+                                <div className="text-[12px] font-semibold leading-[1.3] text-white/90">
+                                    {item.title}
                                 </div>
                             </div>
                         ))}
@@ -332,7 +358,7 @@ export default function Home() {
             <section className="trusted-by-v2">
                 <div className="container">
                     <h2 className="trusted-title">Trusted By</h2>
-                    <p className="trusted-subtitle">Over 40K+ business growing with JOBKAR</p>
+                    <p className="trusted-subtitle">Over 40K+ business growing with jobkar</p>
 
                     <div className="container trusted-logos-box">
                         <div className="logos-row">
@@ -408,7 +434,7 @@ export default function Home() {
             <section className="stands-out-section">
                 <div className="container">
                     <div className="stands-out-header">
-                        <h2 className="stands-out-title">Why <span className="text-primary">JobKar</span> Stands Out</h2>
+                        <h2 className="stands-out-title">Why <span className="text-primary">jobkar</span> Stands Out</h2>
                         <p className="stands-out-subtitle">Say goodbye to clunky, outdated systems. Jobkar is here to make your hiring process seamless, efficient, and future-proof.</p>
                     </div>
 
@@ -416,8 +442,8 @@ export default function Home() {
                         {/* Jobkar Card */}
                         <div className="comparison-card jobkar-card">
                             <div className="card-logo">
-                                <img src="/logo.png" alt="Jobkar Logo" width="32" height="32" />
-                                <span>Jobkar</span>
+                                <img src="/logo.png" alt="jobkar logo" width="32" height="32" />
+                                <span>jobkar</span>
                             </div>
                             <h3>FEATURES INCLUDED :</h3>
                             <ul className="features-list">
@@ -470,7 +496,7 @@ export default function Home() {
                                     <img src="/logo.png" alt="logo" className="qr-bird-logo" />
                                 </div>
                                 <h2 className="text-[32px] font-extrabold text-[#111827] mb-2 text-left">Download</h2>
-                                <h2 className="text-[32px] font-extrabold text-primary text-left">JobKar</h2>
+                                <h2 className="text-[32px] font-extrabold text-primary text-left">jobkar</h2>
                             </div>
 
                             <div className="phone-mockup-wrapper">
@@ -506,7 +532,7 @@ export default function Home() {
             {/* 5.4 See JobKar in Action */}
             <section className="action-section">
                 <div className="action-container">
-                    <h2 className="action-title">See Jobkar in Action!</h2>
+                    <h2 className="action-title">See jobkar in Action!</h2>
 
                     <div className="action-phone-mockup">
                         <div className="phone-islands"></div>
@@ -566,7 +592,7 @@ export default function Home() {
                 <div className="faq-container-v2">
                     <div className="faq-left-col">
                         <span className="faq-badge">FAQ</span>
-                        <h2 className="faq-title-main">What would you like to know about Jobkar?</h2>
+                        <h2 className="faq-title-main">What would you like to know about jobkar?</h2>
                         <button className="btn-talk-us">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 1 1-7.6-11.3 8.38 8.38 0 0 1 3.8.9L21 3z" />
@@ -583,11 +609,11 @@ export default function Home() {
 
                     <div className="faq-right-col">
                         {[
-                            "What is Jobkar?",
-                            "Is Jobkar free to use?",
-                            "How can I apply for a job on Jobkar?",
-                            "Can I post jobs on Jobkar as an employer?",
-                            "How does Jobkar match me with jobs?"
+                            "What is jobkar?",
+                            "Is jobkar free to use?",
+                            "How can I apply for a job on jobkar?",
+                            "Can I post jobs on jobkar as an employer?",
+                            "How does jobkar match me with jobs?"
                         ].map((q, i) => (
                             <div key={i} className="faq-item-v2">
                                 <span>{q}</span>

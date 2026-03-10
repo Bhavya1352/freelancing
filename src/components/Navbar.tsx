@@ -12,11 +12,11 @@ export default function Navbar() {
             <div className="container flex items-center justify-between">
                 <Link href="/" className="logo flex items-center gap-2">
                     <img src="/logo.png" alt="Jobkar Logo" width="40" height="40" className="object-contain" />
-                    <span className="font-extrabold text-2xl text-dark tracking-tight">Jobkar</span>
+                    <span className="font-extrabold text-2xl text-dark tracking-tight">jobkar</span>
                 </Link>
 
                 {/* Mobile Menu Toggle */}
-                <button 
+                <button
                     className={`mobile-menu-toggle ${isMenuOpen ? 'active' : ''}`}
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                     aria-label="Toggle menu"

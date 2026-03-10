@@ -4,8 +4,8 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 export const metadata: Metadata = {
-    title: 'Jobkar - Find your new job today',
-    description: 'Jobkar job portal dashboard.',
+    title: 'jobkar - Find your new job today',
+    description: 'jobkar job portal dashboard.',
     icons: {
         icon: '/logo.png',
     },
