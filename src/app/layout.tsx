@@ -7,9 +7,9 @@ export const metadata: Metadata = {
     title: 'jobkar - Find your new job today',
     description: 'jobkar job portal dashboard.',
     icons: {
-        icon: '/logo15.png',
-        shortcut: '/logo15.png',
-        apple: '/logo15.png',
+        icon: '/logo.png',
+        shortcut: '/logo.png',
+        apple: '/logo.png',
     },
 };
 
