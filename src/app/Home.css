@@ -250,6 +250,7 @@
 .bird-row {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
 }
 
 .bird-item {
@@ -269,9 +270,18 @@
 
 @media (max-width: 768px) {
     .action-birds-triangular {
-        bottom: 30px;
-        right: 30px;
-        transform: scale(0.7);
+        position: relative !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        margin: 40px auto 0 !important; /* Centered at bottom */
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 15px !important;
+        width: 100%;
+        transform: none !important;
+    }
+    .bird-row {
+        justify-content: center;
     }
 }
 
@@ -1617,7 +1627,34 @@
     }
 
     .hero-bg-wrapper {
-        display: none !important;
+        display: flex;
+        position: absolute;
+        top: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 180px !important; /* Smaller area on mobile */
+        opacity: 0.25 !important; /* Subtle background */
+        z-index: 1;
+        pointer-events: none;
+        padding: 0 !important;
+        justify-content: space-between;
+    }
+
+    .hero-side-illustration {
+        width: 140px !important; /* Fixed width for stability */
+        height: auto !important;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .hero-bg-left, .hero-bg-right1, .hero-bg-right2 {
+        max-height: 130px !important; /* Much smaller to avoid text */
+        width: auto !important;
+    }
+    
+    .hero-plant {
+        display: none !important; /* Hide small plants on mobile to reduce clutter */
     }
 
     .jobs-grid-3 {
@@ -1690,20 +1727,34 @@
         margin-top: 12px;
     }
 
-    .pill-dark {
-        width: 100%;
-        max-width: 100%;
-        min-width: 100%;
+    .whats-new .flex-nowrap {
+        flex-direction: column !important;
+        gap: 16px !important;
     }
 
-    .features-grid {
-        grid-template-columns: 1fr;
+    .pill-dark {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        margin: 0 !important;
     }
 
     .qr-section-container {
         flex-direction: column;
         padding: 0 20px;
-        gap: 40px;
+        gap: 30px;
+    }
+
+    .logos-row {
+        gap: 20px !important;
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important; /* Forced 2xN grid */
+        justify-items: center;
+    }
+    
+    .logo-item {
+        width: 100%;
+        justify-content: center;
     }
 
     .get-dream-card {
