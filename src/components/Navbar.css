@@ -13,7 +13,11 @@
 }
 
 .logo .text-dark {
-    color: var(--text-dark);
+    color: var(--text-dark); /* or #000 explicitly */
+}
+
+.jobkar-logo-primary {
+    filter: invert(26%) sepia(91%) saturate(2256%) hue-rotate(200deg) brightness(91%) contrast(97%);
 }
 
 .nav-links {

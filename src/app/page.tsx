@@ -235,15 +235,22 @@ export default function Home() {
                             <p className="feature-text">
                                 Find and hire talent across India with Jobkar&apos;s wide network of job seekers.
                             </p>
-                            <div className="feature-bars">
-                                <div className="feature-bar feature-bar-green">
+                            <div className="feature-bars flex-1 flex flex-col justify-center">
+                                <div className="feature-bar feature-bar-green flex justify-between items-center" style={{ paddingRight: '2px' }}>
                                     <span>Pan-India Reach</span>
+                                    <div className="w-[28px] h-[28px] rounded-full bg-white flex items-center justify-center flex-shrink-0 relative overflow-hidden">
+                                        <div className="absolute right-0 top-0 bottom-0 w-1/2 bg-[#185549] rounded-l-full rotate-180" style={{ right: '-4px' }}></div>
+                                    </div>
                                 </div>
-                                <div className="feature-bar feature-bar-blue">
+                                <div className="feature-bar feature-bar-blue flex justify-between items-center" style={{ paddingRight: '2px' }}>
                                     <span>Endless Talent</span>
+                                    <div className="w-[28px] h-[28px] rounded-full bg-transparent flex items-center justify-center flex-shrink-0">
+                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="#fff" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                                    </div>
                                 </div>
-                                <div className="feature-bar feature-bar-orange">
+                                <div className="feature-bar feature-bar-orange flex justify-between items-center" style={{ paddingRight: '2px' }}>
                                     <span>Broad Network</span>
+                                    <div className="w-[28px] h-[28px] rounded-full bg-white flex-shrink-0"></div>
                                 </div>
                             </div>
                         </article>
@@ -254,15 +261,8 @@ export default function Home() {
                             <p className="feature-text">
                                 Let your hiring process run on autopilot with smart workflows and integrations.
                             </p>
-                            <div className="feature-icons feature-icons-circle">
-                                <span className="feature-icon small primary">Q</span>
-                                <span className="feature-icon small pink">H</span>
-                                <span className="feature-icon small gray">P</span>
-                                <span className="feature-icon small blue">W</span>
-                                <span className="feature-icon large violet flex items-center justify-center">
-                                    <img src="/logo.png" alt="jobkar" width="24" height="24" className="object-contain" />
-                                </span>
-                                <span className="feature-icon small orange">bob</span>
+                            <div className="mt-8 flex-1 flex flex-col items-center justify-center w-full">
+                                <img src="/easy automation.png" alt="Easy Automation" className="max-h-[160px] w-auto object-contain" />
                             </div>
                         </article>
 
@@ -272,11 +272,8 @@ export default function Home() {
                             <p className="feature-text">
                                 Stay compliant with regulations and meet industry standards effortlessly.
                             </p>
-                            <div className="feature-compliance">
-                                <div className="compliance-ring">
-                                    <div className="compliance-ring-fill" />
-                                </div>
-                                <span className="compliance-badge">Verified</span>
+                            <div className="mt-8 flex-1 flex items-center justify-center w-full">
+                                <img src="/compliant.png" alt="Compliant" className="max-h-[180px] w-auto object-contain" />
                             </div>
                         </article>
 
@@ -286,9 +283,35 @@ export default function Home() {
                             <p className="feature-text">
                                 Cost-effective solutions for businesses of any size. No hidden fees, just clear pricing.
                             </p>
-                            <div className="feature-affordable">
-                                <span className="affordable-label">No hidden fees!</span>
-                                <div className="affordable-graph" />
+                            <div className="mt-auto -mx-8 -mb-8 relative flex items-end overflow-hidden" style={{ minHeight: '160px' }}>
+                                <svg
+                                    className="absolute top-0 left-0 w-full h-full pointer-events-none"
+                                >
+                                    <path
+                                        d="M 32 110 L 800 -44 L 800 200 L 32 200 Z"
+                                        fill="#EFE7F6"
+                                        className="opacity-80"
+                                    />
+                                    <path
+                                        d="M 32 110 L 800 -44"
+                                        stroke="#9358F8"
+                                        strokeWidth="1.5"
+                                    />
+                                    {/* Dotted Vertical Line */}
+                                    <line
+                                        x1="32" y1="110" x2="32" y2="30"
+                                        stroke="#9358F8" strokeWidth="2" strokeDasharray="0 6" strokeLinecap="round" opacity="0.6"
+                                    />
+                                    {/* Purple Dot */}
+                                    <circle cx="32" cy="110" r="4.5" fill="#9358F8" />
+                                </svg>
+
+                                {/* Text Container */}
+                                <div className="absolute z-10" style={{ left: '52px', top: '32px' }}>
+                                    <span className="text-[17px] font-semibold text-[#374151] leading-[1.3] tracking-tight block">
+                                        No hidden<br />fees!
+                                    </span>
+                                </div>
                             </div>
                         </article>
 
@@ -298,12 +321,8 @@ export default function Home() {
                             <p className="feature-text">
                                 Manage your job postings, applications, and company details from one smart dashboard.
                             </p>
-                            <div className="feature-icons feature-icons-bubbles">
-                                <span className="feature-bubble bubble-small">Irish Life</span>
-                                <span className="feature-bubble bubble-medium">Smart</span>
-                                <span className="feature-bubble bubble-large">Allianz</span>
-                                <span className="feature-bubble bubble-medium-alt">Health</span>
-                                <span className="feature-bubble bubble-small-alt">Vitality</span>
+                            <div className="mt-auto -mb-4 flex items-center justify-center w-full">
+                                <img src="/centralized ,amagement.png" alt="Centralized Management" className="w-[105%] max-w-[105%] object-contain" style={{ marginLeft: '-2.5%' }} />
                             </div>
                         </article>
                     </div>
@@ -439,89 +458,91 @@ export default function Home() {
                     </div>
 
                     <div className="comparison-wrapper">
-                        {/* Jobkar Card */}
-                        <div className="comparison-card jobkar-card">
+                        {/* Vertical Light Streak */}
+                        <div className="gap-glow"></div>
+
+                        {/* Jobkar Column */}
+                        <div className="comparison-column">
                             <div className="card-logo">
-                                <img src="/logo.png" alt="jobkar logo" width="32" height="32" />
-                                <span>jobkar</span>
+                                <div className="choch-wrapper">
+                                    <img src="/logo.png" alt="jobkar logo" width="48" height="48" className="jobkar-logo-primary" />
+                                    <img src="/logo22.png" alt="sparkle" className="choch-sparkle" />
+                                </div>
+                                <span className="font-extrabold">jobkar</span>
                             </div>
-                            <h3>FEATURES INCLUDED :</h3>
-                            <ul className="features-list">
-                                {WHY_US_DATA.jobkar.map((feature, idx) => (
-                                    <li key={idx} className="feature-item">
-                                        <div className="feature-icon">
-                                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22C55E" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                                        </div>
-                                        {feature}
-                                    </li>
-                                ))}
-                            </ul>
+                            <div className="comparison-card jobkar-card">
+                                <h3>FEATURES INCLUDED :</h3>
+                                <ul className="features-list">
+                                    {WHY_US_DATA.jobkar.map((feature, idx) => (
+                                        <li key={idx} className="feature-item">
+                                            <div className="feature-icon">
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22C55E" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                            </div>
+                                            {feature}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <img src="/line.png" alt="decorative line" className="card-decoration-line" />
                         </div>
 
                         {/* VS Badge */}
-                        <div className="vs-badge">VS</div>
+                        <div className="vs-badge">
+                            <img src="/vs circle.png" alt="VS" width="64" height="64" />
+                        </div>
 
-                        {/* Other Software Card */}
-                        <div className="comparison-card other-card">
-                            <div className="card-logo" style={{ marginBottom: 44 }}>
-                                <span style={{ color: '#64748B' }}>Other Softwares</span>
+                        {/* Other Software Column */}
+                        <div className="comparison-column">
+                            <div className="card-logo">
+                                <span className="font-extrabold">Other Softwares</span>
                             </div>
-                            <h3>FEATURES NOT INCLUDED :</h3>
-                            <ul className="features-list">
-                                {WHY_US_DATA.others.map((feature, idx) => (
-                                    <li key={idx} className="feature-item">
-                                        <div className="feature-icon">
-                                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#EF4444" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-                                        </div>
-                                        {feature}
-                                    </li>
-                                ))}
-                            </ul>
+                            <div className="comparison-card other-card">
+                                <h3>FEATURES NOT INCLUDED :</h3>
+                                <ul className="features-list">
+                                    {WHY_US_DATA.others.map((feature, idx) => (
+                                        <li key={idx} className="feature-item">
+                                            <div className="feature-icon">
+                                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#EF4444" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                                            </div>
+                                            {feature}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
                         </div>
 
                     </div>
+
                 </div>
 
             </section >
 
-            {/* 5.3 Scan To Download */}
-            <section className="download-section bg-white">
-                <div className="container mx-auto">
-                    <div className="qr-section-container">
-                        {/* Left Column: Title and Phone */}
-                        <div className="qr-left-column">
-                            <div className="qr-title-wrap">
-                                <div className="qr-title-top">
-                                    <span>Scan To</span>
-                                    <img src="/logo.png" alt="logo" className="qr-bird-logo" />
-                                </div>
-                                <h2 className="text-[32px] font-extrabold text-[#111827] mb-2 text-left">Download</h2>
-                                <h2 className="text-[32px] font-extrabold text-primary text-left">jobkar</h2>
-                            </div>
 
-                            <div className="phone-mockup-wrapper">
-                                <div className="phone-islands"></div>
-                                <div className="phone-screen">
-                                    <div className="qr-code-box">
-                                        <div className="qr-code-placeholder"></div>
-                                        <div className="qr-logo-center">
-                                            <img src="/logo.png" alt="center-logo" className="w-full h-full object-contain" />
-                                        </div>
-                                    </div>
-                                </div>
+
+            {/* 5.3 Scan To Download - Integrated & Polished Layout */}
+            <section className="download-section-v3">
+                <div className="container-v3">
+                    <div className="download-layout-v3">
+                        {/* QR Box with Heading at the corner */}
+                        <div className="qr-container-integrated">
+                            <img 
+                                src="/heading scan jobkar.png" 
+                                alt="Scan To Download JobKar" 
+                                className="integrated-heading-img"
+                            />
+                            <div className="qr-box-v3">
+                                <div className="qr-accent"></div>
+                                <img src="/qr.png" alt="QR Code" className="qr-main-img" />
                             </div>
                         </div>
 
-                        {/* Right Column: Card */}
-                        <div className="qr-right-column">
-                            <div className="get-dream-card">
-                                <h2>Get Your <span className="text-primary">Dream Job</span> With Find Jobs.</h2>
-                                <p>Prove the ROI of social media, plan more engaging content</p>
-                                <button className="btn-download-app">Download Our App</button>
-                                <img
-                                    src="/get-job.png"
-                                    alt="Get your dream job"
-                                    className="card-bottom-image"
+                        {/* Right: Phone Asset with perspective and shadows */}
+                        <div className="download-visual-group">
+                            <div className="phone-mockup-v3">
+                                <img 
+                                    src="/scan section.png" 
+                                    alt="QR Phone" 
+                                    className="phone-mockup-img"
                                 />
                             </div>
                         </div>
@@ -534,39 +555,55 @@ export default function Home() {
                 <div className="action-container">
                     <h2 className="action-title">See jobkar in Action!</h2>
 
+                    {/* Dynamic Phone Mockup */}
                     <div className="action-phone-mockup">
-                        <div className="phone-islands"></div>
+                        <div className="phone-island-dynamic"></div>
                         <div className="action-phone-screen">
-                            <div className="app-screen-mock">
-                                <div className="app-header-mock">Givingli Cash</div>
-                                <div className="app-content-mock">
-                                    <div className="card-mock-visual">
-                                        Givingli Cash
-                                    </div>
-                                    <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Select Amount</div>
-                                    <div className="action-ui-mock">
-                                        <div className="circle-btn-mock">−</div>
-                                        <div className="amount-mock">$ 10</div>
-                                        <div className="circle-btn-mock" style={{ color: 'white', backgroundColor: '#3b82f6', border: 'none' }}>+</div>
-                                    </div>
-                                    <div className="mt-auto w-full p-4">
-                                        <div className="w-full bg-[#111] text-white py-3 rounded-xl text-[10px] font-bold">Add Gift</div>
-                                    </div>
+                            {/* App Header */}
+                            <div className="mock-app-header">
+                                <div className="mock-back-btn"></div>
+                                <div className="mock-app-title">Givingli Cash</div>
+                            </div>
+
+                            {/* Debit Card Visual */}
+                            <div className="mock-card-container">
+                                <div className="mock-debit-card">
+                                    <div className="mock-card-brand"></div>
+                                    <div className="mock-waves-bg"></div>
+                                    <div className="mock-card-name">Givingli Cash</div>
                                 </div>
                             </div>
+
+                            {/* Amount Controls */}
+                            <div className="mock-amount-section">
+                                <span className="mock-label">Select Amount</span>
+                                <div className="mock-controls">
+                                    <div className="mock-minus">−</div>
+                                    <div className="mock-amount"><span>$</span> 10</div>
+                                    <div className="mock-plus">+</div>
+                                </div>
+                            </div>
+
+                            {/* Add Gift Button */}
+                            <div className="mock-footer-btn">Add Gift</div>
                         </div>
                     </div>
 
-                    <p className="action-bottom-text">
-                        See how Jobkar makes the hiring process faster, smarter, and simpler. Watch our app in action as it seamlessly connects job seekers with top employers. Experience the future of hiring, right at your fingertips!
+                    {/* Action Description Text */}
+                    <p className="action-description-text">
+                        See how Jobkar makes the hiring process faster, smarter, and simpler.
+                        Watch our app in action as it seamlessly connects job seekers with top employers.
+                        Experience the future of hiring, right at your fingertips!
                     </p>
                 </div>
 
-                {/* Corner Birds Decorations */}
-                <div className="birds-decoration">
-                    <img src="/logo.png" alt="bird" className="bird-decor" />
-                    <img src="/logo.png" alt="bird" className="bird-decor" />
-                    <img src="/logo.png" alt="bird" className="bird-decor" />
+                {/* Corner Birds Decorations - Triangular Style */}
+                <div className="action-birds-triangular">
+                    <img src="/birds.png" alt="bird 1" className="bird-item bird-1" />
+                    <div className="bird-row">
+                        <img src="/birds1.png" alt="bird 2" className="bird-item bird-2" />
+                        <img src="/birds3.png" alt="bird 3" className="bird-item bird-3" />
+                    </div>
                 </div>
             </section>
 
@@ -576,9 +613,19 @@ export default function Home() {
                     <h2 className="voices-title">Voices Of Experiences</h2>
 
                     <div className="testimonials-container">
+                        {/* Side Card 1 (Left) */}
+                        <div className="testimonial-card-side">
+                            <img src="/card1.png" alt="Testimonial 1" />
+                        </div>
+
                         {/* Main Center Image */}
                         <div className="testimonial-card-v3">
                             <img src="/card2.png" alt="Main Testimonial" />
+                        </div>
+
+                        {/* Side Card 3 (Right) - Added for balance if needed */}
+                        <div className="testimonial-card-side">
+                            <img src="/card3.png" alt="Testimonial 3" />
                         </div>
                     </div>
 
@@ -609,16 +656,36 @@ export default function Home() {
 
                     <div className="faq-right-col">
                         {[
-                            "What is jobkar?",
-                            "Is jobkar free to use?",
-                            "How can I apply for a job on jobkar?",
-                            "Can I post jobs on jobkar as an employer?",
-                            "How does jobkar match me with jobs?"
-                        ].map((q, i) => (
-                            <div key={i} className="faq-item-v2">
-                                <span>{q}</span>
-                                <svg className="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M19 9l-7 7-7-7" /></svg>
-                            </div>
+                            {
+                                q: "What is jobkar?",
+                                a: "Jobkar is a modern hiring platform that connects job seekers with top employers quickly and efficiently using smart matching technology."
+                            },
+                            {
+                                q: "Is jobkar free to use?",
+                                a: "Yes, jobkar is free for job seekers to create a profile, search for jobs, and apply to unlimited positions."
+                            },
+                            {
+                                q: "How can I apply for a job on jobkar?",
+                                a: "Simply create an account, upload your resume, and click the 'Apply' button on any job listing that matches your skills and interests."
+                            },
+                            {
+                                q: "Can I post jobs on jobkar as an employer?",
+                                a: "Absolutely! Employers can register for a business account to post job openings, manage candidates, and access our talent pool."
+                            },
+                            {
+                                q: "How does jobkar match me with jobs?",
+                                a: "Our AI-powered matching engine analyzes your skills, experience, and preferences to suggest the most relevant job opportunities for you."
+                            }
+                        ].map((item, i) => (
+                            <details key={i} className="faq-item-v2" name="faq-accordion">
+                                <summary className="faq-summary">
+                                    <span>{item.q}</span>
+                                    <svg className="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M19 9l-7 7-7-7" /></svg>
+                                </summary>
+                                <div className="faq-answer">
+                                    <p>{item.a}</p>
+                                </div>
+                            </details>
                         ))}
                     </div>
                 </div>
@@ -629,7 +696,12 @@ export default function Home() {
                 <div className="contact-container">
                     {/* Left Illustration */}
                     <div className="illustration left-side mobile-show">
-                        <img src="/left-side.png" alt="Left Illustration" className="w-full h-auto" />
+                        <img src="/get in touch left.png" alt="Left Illustration" className="w-full h-auto" />
+                        <img 
+                            src="/get in touch left plant.png" 
+                            alt="plant" 
+                            className="contact-plant contact-plant-left" 
+                        />
                     </div>
 
                     {/* Contact Form Card */}
@@ -658,7 +730,12 @@ export default function Home() {
 
                     {/* Right Illustration */}
                     <div className="illustration right-side mobile-show">
-                        <img src="/right-side.png" alt="Right Illustration" className="w-full h-auto" />
+                        <img src="/get in right.png" alt="Right Illustration" className="w-full h-auto" />
+                        <img 
+                            src="/get in touch right plant.png" 
+                            alt="plant" 
+                            className="contact-plant contact-plant-right" 
+                        />
                     </div>
                 </div>
             </section >
