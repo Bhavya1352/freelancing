@@ -1155,9 +1155,10 @@
 }
 
 .hero-bg-img {
-    width: auto;
+    width: auto !important;
+    height: auto !important;
     max-height: 420px;
-    object-fit: contain;
+    object-fit: contain !important;
 }
 
 .hero-bg-left,
@@ -1652,17 +1653,14 @@
         align-items: flex-end;
     }
 
-    .hero-bg-left, .hero-bg-right1, .hero-bg-right2 {
-        max-height: 320px !important;
-        width: auto !important;
-    }
 
     .hero-bg-left,
     .hero-bg-right1,
     .hero-bg-right2 {
-        max-height: 130px !important;
-        /* Much smaller to avoid text */
+        max-height: 280px !important; /* Adjusted to prevent collision while staying proportional */
         width: auto !important;
+        height: auto !important;
+        object-fit: contain !important;
     }
 
     .hero-plant {
