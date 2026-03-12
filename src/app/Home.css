@@ -1757,6 +1757,10 @@
         justify-content: center;
     }
 
+    .logo-item:nth-child(5) {
+        grid-column: span 2;
+    }
+
     .get-dream-card {
         padding: 40px 30px 0;
     }

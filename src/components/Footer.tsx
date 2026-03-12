@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className="footer-top grid-4">
                     <div className="footer-brand">
                         <Link href="/" className="logo flex items-center gap-2 mb-4">
-                            <img src="/logo.png" alt="jobkar logo" width="32" height="32" className="object-contain" />
+                            <img src="/logo15.png" alt="jobkar logo" width="32" height="32" className="object-contain" />
                             <span className="font-semibold text-white" style={{ fontSize: '24px' }}>jobkar</span>
                         </Link>
                         <p className="text-footer-light text-sm mb-4" style={{ lineHeight: '1.6' }}>
