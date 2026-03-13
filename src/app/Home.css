@@ -325,8 +325,8 @@
 }
 
 .testimonial-card-v3 {
-    width: 900px;
-    /* Increased size for the main center card */
+    width: min(900px, 80vw);
+    /* Dynamic width to prevent clipping at higher zoom */
     z-index: 10;
     position: relative;
     transition: all 0.3s ease;
@@ -335,8 +335,8 @@
 }
 
 .testimonial-card-side {
-    width: 320px;
-    /* Reduced size for side cards */
+    width: min(320px, 30vw);
+    /* Dynamic width for side cards */
     opacity: 1;
     filter: none;
     transition: none;
@@ -1143,8 +1143,9 @@
 }
 
 .hero-bg-wrapper {
-    padding: 0 80px;
-    /* Bringing images closer to center */
+    padding: 0 40px;
+    /* Reduced from 80px to prevent overlap on smaller viewports/higher zoom */
+    justify-content: space-between;
 }
 
 @media (max-width: 1024px) {
@@ -1162,10 +1163,32 @@
 }
 
 .hero-bg-left,
-.hero-bg-right {
+.hero-bg-right1,
+.hero-bg-right2 {
     align-self: center;
     /* Centering vertically within hero section */
     margin-top: 0;
+}
+
+@media (max-width: 1400px) {
+    .hero-bg-left {
+        transform: translateX(-20%);
+    }
+    .hero-bg-right1, .hero-bg-right2 {
+        transform: translateX(20%);
+    }
+}
+
+@media (max-width: 1200px) {
+    .hero-side-illustration {
+        opacity: 0.3; /* Lower opacity instead of full overlap */
+    }
+}
+
+@media (max-width: 900px) {
+    .hero-side-illustration {
+        display: none; /* Hide illustrations on very narrow screens/high zoom */
+    }
 }
 
 .hero-title {
