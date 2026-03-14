@@ -1143,8 +1143,8 @@
 }
 
 .hero-bg-wrapper {
-    padding: 0 40px;
-    /* Reduced from 80px to prevent overlap on smaller viewports/higher zoom */
+    padding: 0 min(40px, 4vw);
+    /* Fluid padding to maintain safe distance from screen edges */
     justify-content: space-between;
 }
 
@@ -1158,7 +1158,8 @@
 .hero-bg-img {
     width: auto !important;
     height: auto !important;
-    max-height: 380px;
+    max-height: clamp(280px, 35vh, 420px);
+    /* Fluid max-height to scale down on shorter viewports or when zoomed */
     object-fit: contain !important;
 }
 
@@ -1170,24 +1171,25 @@
     margin-top: 0;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
     .hero-bg-left {
-        transform: translateX(-20%);
+        transform: translateX(-30%);
     }
     .hero-bg-right1, .hero-bg-right2 {
-        transform: translateX(20%);
+        transform: translateX(30%);
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     .hero-side-illustration {
-        opacity: 0.3; /* Lower opacity instead of full overlap */
+        opacity: 0.4; /* Fade earlier to reduce visual noise during overlap */
+        pointer-events: none;
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1150px) {
     .hero-side-illustration {
-        display: none; /* Hide illustrations on very narrow screens/high zoom */
+        display: none !important; /* Hide before they hit the 1000px central container */
     }
 }
 
@@ -1236,8 +1238,9 @@
 
 .hero-search-bar {
     max-width: 860px;
-    height: 66px;
-    padding: 6px;
+    min-height: 66px;
+    /* Changed from height to min-height for flexibility */
+    padding: 0.4rem;
     box-shadow: 0px 24px 50px -12px rgba(37, 99, 235, 0.15) !important;
     transition: all 0.3s ease;
 }
@@ -2358,18 +2361,20 @@ textarea.form-input {
 }
 
 .hero-bg-img {
-    max-height: 420px;
-    /* Reduced character size as requested */
+    max-height: clamp(280px, 35vh, 420px);
+    /* Changed from fixed 420px to fluid clamp */
     object-fit: contain;
 }
 
 .hero-bg-right1 {
-    max-height: 380px;
+    max-height: clamp(250px, 32vh, 380px);
+    /* Changed from fixed 380px */
     margin-right: -20px;
 }
 
 .hero-bg-right2 {
-    max-height: 360px;
+    max-height: clamp(230px, 30vh, 360px);
+    /* Changed from fixed 360px */
 }
 
 .hero-plant-left {
@@ -2387,22 +2392,22 @@ textarea.form-input {
     /* Flip second plant for variety if needed, but the asset is symmetrical */
 }
 
-@media (max-width: 1024px) {
-
+@media (max-width: 1150px) {
     .hero-lamps-wrap {
-        display: flex !important;
-        max-width: 100%;
-        padding: 0 20px;
-        top: 10px;
+        display: none !important; /* Hide lamps when viewport is too small to avoid overlap */
     }
 
-    .hero-lamps-wrap img {
-        width: 40px;
+    .hero-side-illustration {
+        display: none !important;
     }
 
     .hero-bg-wrapper {
-        display: flex !important;
+        display: none !important;
     }
+}
+
+@media (max-width: 1024px) {
+    /* Keeping for other potential mobile overrides if needed, but display:none above takes precedence */
 }
 
 /* ===========================
