@@ -1155,13 +1155,7 @@
     }
 }
 
-.hero-bg-img {
-    width: auto !important;
-    height: auto !important;
-    max-height: clamp(280px, 35vh, 420px);
-    /* Fluid max-height to scale down on shorter viewports or when zoomed */
-    object-fit: contain !important;
-}
+/* .hero-bg-img moved to combined definition below */
 
 .hero-bg-left,
 .hero-bg-right1,
@@ -1169,27 +1163,48 @@
     align-self: center;
     /* Centering vertically within hero section */
     margin-top: 0;
+    transition: transform 0.3s ease;
+}
+
+.hero-side-left {
+    transform: translateX(35%);
+    transition: transform 0.3s ease;
+}
+
+.hero-side-right {
+    transform: translateX(-25%);
+    transition: transform 0.3s ease;
 }
 
 @media (max-width: 1440px) {
-    .hero-bg-left {
-        transform: translateX(-30%);
-    }
-    .hero-bg-right1, .hero-bg-right2 {
+    .hero-side-left {
         transform: translateX(30%);
+        /* Keeping it further out to avoid overlap */
+    }
+
+    .hero-side-right {
+        transform: translateX(-20%);
+        /* Keeping it further out to avoid overlap */
     }
 }
 
 @media (max-width: 1300px) {
     .hero-side-illustration {
-        opacity: 0.4; /* Fade earlier to reduce visual noise during overlap */
+        opacity: 0.3;
+        /* More subtle opacity when overlapping */
         pointer-events: none;
+    }
+
+    .hero-bg-img {
+        max-height: 30vh;
+        /* Scale down on smaller screens */
     }
 }
 
 @media (max-width: 1150px) {
     .hero-side-illustration {
-        display: none !important; /* Hide before they hit the 1000px central container */
+        display: none !important;
+        /* Hide before they hit the 1000px central container */
     }
 }
 
@@ -1663,16 +1678,19 @@
         bottom: 0px;
         left: 0;
         right: 0;
-        height: 380px !important; /* Taller on laptop for better scale */
+        height: 380px !important;
+        /* Taller on laptop for better scale */
         opacity: 0.6 !important;
         z-index: 1;
         pointer-events: none;
-        padding: 0 4% !important; /* Pushed illustrations to the edges */
+        padding: 0 4% !important;
+        /* Pushed illustrations to the edges */
         justify-content: space-between;
     }
 
     .hero-side-illustration {
-        width: 20% !important; /* Controlled width to prevent text collision */
+        width: 20% !important;
+        /* Controlled width to prevent text collision */
         max-width: 250px !important;
         height: auto !important;
         display: flex;
@@ -1683,7 +1701,8 @@
     .hero-bg-left,
     .hero-bg-right1,
     .hero-bg-right2 {
-        max-height: 280px !important; /* Adjusted to prevent collision while staying proportional */
+        max-height: 280px !important;
+        /* Adjusted to prevent collision while staying proportional */
         width: auto !important;
         height: auto !important;
         object-fit: contain !important;
@@ -1807,7 +1826,8 @@
         height: 200px !important;
         padding: 0 4% !important;
         opacity: 0.3 !important;
-        bottom: -20px !important; /* Pushed slightly down on mobile/tablet */
+        bottom: -20px !important;
+        /* Pushed slightly down on mobile/tablet */
     }
 
     .hero-side-illustration {
@@ -2361,40 +2381,42 @@ textarea.form-input {
 }
 
 .hero-bg-img {
-    max-height: clamp(280px, 35vh, 420px);
-    /* Changed from fixed 420px to fluid clamp */
-    object-fit: contain;
+    width: auto !important;
+    height: auto !important;
+    max-height: clamp(200px, 28vw, 380px);
+    /* Using vw for better responsiveness on narrow screens */
+    object-fit: contain !important;
 }
 
 .hero-bg-right1 {
-    max-height: clamp(250px, 32vh, 380px);
-    /* Changed from fixed 380px */
     margin-right: -20px;
 }
 
 .hero-bg-right2 {
-    max-height: clamp(230px, 30vh, 360px);
-    /* Changed from fixed 360px */
+    /* Same height as right1 inherited from .hero-bg-img */
 }
 
 .hero-plant-left {
-    bottom: 23% !important;
-    right: -55px !important;
-    width: 80px !important;
+    bottom: 25% !important;
+    right: -50px !important;
+    width: 66px !important;
 }
 
 .hero-plant-right {
     bottom: 25% !important;
-    left: 170px !important;
-    width: 65px !important;
+    left: 190px !important;
+    width: 50px !important;
     z-index: 20;
     transform: scaleX(-1);
+    clip-path: inset(0 0 0 25%);
+    /* Cuts leaves overlapping the leg */
     /* Flip second plant for variety if needed, but the asset is symmetrical */
 }
 
 @media (max-width: 1150px) {
     .hero-lamps-wrap {
-        display: none !important; /* Hide lamps when viewport is too small to avoid overlap */
+        display: none !important;
+        /* Hide lamps when viewport is too small to avoid overlap */
     }
 
     .hero-side-illustration {

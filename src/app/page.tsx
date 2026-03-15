@@ -100,7 +100,7 @@ export default function Home() {
             {/* 1. Hero Section */}
             <section className="hero-section relative" style={{ backgroundColor: '#F9FAFB' }}>
                 <div className="absolute inset-0 z-0 pointer-events-none w-full h-full flex items-start justify-between overflow-hidden hero-bg-wrapper">
-                    <div className="relative hero-side-illustration left-0 h-full flex items-center">
+                    <div className="relative hero-side-illustration hero-side-left left-0 h-full flex items-center">
                         <img
                             src="/hero section left.png"
                             alt="Job seeker illustration"
@@ -112,7 +112,7 @@ export default function Home() {
                             className="absolute bottom-[20%] right-[-20px] w-[140px] hero-plant hero-plant-left"
                         />
                     </div>
-                    <div className="relative hero-side-illustration right-0 h-full flex items-center gap-4">
+                    <div className="relative hero-side-illustration hero-side-right right-0 h-full flex items-center gap-4">
                         <img
                             src="/hero section right1.png"
                             alt="Hiring manager illustration"
