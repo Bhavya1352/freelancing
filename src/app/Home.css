@@ -1143,8 +1143,8 @@
 }
 
 .hero-bg-wrapper {
-    padding: 0 min(40px, 4vw);
-    /* Fluid padding to maintain safe distance from screen edges */
+    padding: 0;
+    /* Removed fluid padding to prevent pushing images into central content */
     justify-content: space-between;
 }
 
@@ -1167,41 +1167,44 @@
 }
 
 .hero-side-left {
-    transform: translateX(35%);
+    transform: translateX(10%);
+    /* Reduced inward shift from 35% to prevent overlap */
     transition: transform 0.3s ease;
 }
 
 .hero-side-right {
-    transform: translateX(-25%);
+    transform: translateX(-5%);
+    /* Reduced inward shift from -25% to prevent overlap */
     transition: transform 0.3s ease;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1550px) {
     .hero-side-left {
-        transform: translateX(30%);
-        /* Keeping it further out to avoid overlap */
+        transform: translateX(0);
+        /* Keep it at the very edge on standard laptop screens */
     }
 
     .hero-side-right {
-        transform: translateX(-20%);
-        /* Keeping it further out to avoid overlap */
+        transform: translateX(0);
+        /* Keep it at the very edge on standard laptop screens */
     }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1350px) {
     .hero-side-illustration {
-        opacity: 0.3;
-        /* More subtle opacity when overlapping */
+        opacity: 0.2;
+        /* More subtle opacity when near content */
         pointer-events: none;
+        transform: scale(0.9);
     }
 
     .hero-bg-img {
-        max-height: 30vh;
+        max-height: 28vh;
         /* Scale down on smaller screens */
     }
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1200px) {
     .hero-side-illustration {
         display: none !important;
         /* Hide before they hit the 1000px central container */
