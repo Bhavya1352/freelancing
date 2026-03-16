@@ -525,9 +525,9 @@ export default function Home() {
                     <div className="download-layout-v3">
                         {/* QR Box with Heading at the corner */}
                         <div className="qr-container-integrated">
-                            <img 
-                                src="/heading scan jobkar.png" 
-                                alt="Scan To Download JobKar" 
+                            <img
+                                src="/heading scan jobkar.png"
+                                alt="Scan To Download JobKar"
                                 className="integrated-heading-img"
                             />
                             <div className="qr-box-v3">
@@ -539,9 +539,9 @@ export default function Home() {
                         {/* Right: Phone Asset with perspective and shadows */}
                         <div className="download-visual-group">
                             <div className="phone-mockup-v3">
-                                <img 
-                                    src="/scan section.png" 
-                                    alt="QR Phone" 
+                                <img
+                                    src="/scan section.png"
+                                    alt="QR Phone"
                                     className="phone-mockup-img"
                                 />
                             </div>
@@ -697,10 +697,10 @@ export default function Home() {
                     {/* Left Illustration */}
                     <div className="illustration left-side mobile-show">
                         <img src="/get in touch left.png" alt="Left Illustration" className="w-full h-auto" />
-                        <img 
-                            src="/get in touch left plant.png" 
-                            alt="plant" 
-                            className="contact-plant contact-plant-left" 
+                        <img
+                            src="/get in touch left plant.png"
+                            alt="plant"
+                            className="contact-plant contact-plant-left"
                         />
                     </div>
 
@@ -731,10 +731,10 @@ export default function Home() {
                     {/* Right Illustration */}
                     <div className="illustration right-side mobile-show">
                         <img src="/get in right.png" alt="Right Illustration" className="w-full h-auto" />
-                        <img 
-                            src="/get in touch right plant.png" 
-                            alt="plant" 
-                            className="contact-plant contact-plant-right" 
+                        <img
+                            src="/get in touch right plant.png"
+                            alt="plant"
+                            className="contact-plant contact-plant-right"
                         />
                     </div>
                 </div>
