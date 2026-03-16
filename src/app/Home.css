@@ -1130,7 +1130,6 @@
     align-items: center;
     justify-content: center;
     padding: 0 0 60px;
-    /* Removed top padding to let lamps touch navbar */
     margin: 0;
     overflow: hidden;
     position: relative;
@@ -1165,22 +1164,25 @@
 /* .hero-bg-img moved to combined definition below */
 
 .hero-bg-img {
-    max-width: 20vw; /* Desktop size */
+    max-width: 20vw;
+    /* Desktop size */
     width: auto;
     height: auto;
     object-fit: contain;
-    transition: all 0.4s ease;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 @media (max-width: 1600px) {
     .hero-bg-img {
-        max-width: 15vw; /* Laptop safety: Shrink images so they don't hit text */
+        max-width: 15vw;
+        /* Laptop safety: Shrink images so they don't hit text */
     }
 }
 
 @media (max-width: 1400px) {
     .hero-bg-img {
-        max-width: 12vw; /* Standard laptop safety */
+        max-width: 12vw;
+        /* Standard laptop safety */
     }
 }
 
@@ -1205,28 +1207,34 @@
 }
 
 @media (max-width: 1600px) {
+
     /* Large Laptop: Reduce shift to prevent overlap */
     .hero-side-left {
         transform: translateX(10%);
     }
+
     .hero-side-right {
         transform: translateX(-8%);
     }
 }
 
 @media (max-width: 1450px) {
+
     /* Standard Laptop: Move to edges for safety */
     .hero-side-left {
         transform: translateX(40px);
     }
+
     .hero-side-right {
         transform: translateX(-30px);
     }
 }
 
 @media (max-width: 1300px) {
+
     /* Small Laptop: Stick to edges and fade slightly */
-    .hero-side-left, .hero-side-right {
+    .hero-side-left,
+    .hero-side-right {
         transform: translateX(0);
         opacity: 0.8;
     }
@@ -1238,7 +1246,7 @@
     .hero-side-right {
         transform: translateX(0);
         /* Stick to edges */
-        opacity: 0.7;
+        opacity: 1;
     }
 
     .hero-bg-img {
@@ -1258,7 +1266,7 @@
 
 @media (max-width: 1350px) {
     .hero-side-illustration {
-        opacity: 0.2;
+        opacity: 0.8;
         /* More subtle opacity when near content */
         pointer-events: none;
         transform: scale(0.9);
@@ -1296,15 +1304,14 @@
 }
 
 .highlight-pill {
-    background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%);
-    color: #1D4ED8;
-    padding: 2px 14px;
-    border-radius: 12px;
+    background: #2563EB;
+    color: #FFFFFF;
+    padding: 2px 18px;
+    border-radius: 6px;
     display: inline-block;
-    border: 1px solid #BFDBFE;
     position: relative;
     vertical-align: middle;
-    box-shadow: 0 4px 14px 0 rgba(37, 99, 235, 0.1);
+    font-weight: 800;
 }
 
 @media (max-width: 480px) {
@@ -1323,10 +1330,15 @@
 .hero-search-bar {
     max-width: 860px;
     min-height: 66px;
-    /* Changed from height to min-height for flexibility */
     padding: 0.4rem;
-    box-shadow: 0px 24px 50px -12px rgba(37, 99, 235, 0.15) !important;
-    transition: all 0.3s ease;
+    background: #FFFFFF !important;
+    border: 1px solid #E2E8F0;
+    border-radius: 100px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.hero-search-bar:focus-within {
+    border-color: #2563EB;
 }
 
 @media (max-width: 768px) {
@@ -1443,9 +1455,11 @@
     .features-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+
     .feature-card:nth-child(n) {
         grid-column: span 1 !important;
     }
+
     .feature-card:nth-child(5) {
         grid-column: span 2 !important;
     }
@@ -1455,6 +1469,7 @@
     .features-grid {
         grid-template-columns: 1fr;
     }
+
     .feature-card:nth-child(n) {
         grid-column: span 1 !important;
     }
@@ -1907,7 +1922,8 @@
         gap: 15px !important;
     }
 
-    .bird-item, .bird-svg-mock {
+    .bird-item,
+    .bird-svg-mock {
         width: 40px !important;
         height: auto !important;
     }
@@ -2433,14 +2449,12 @@ textarea.form-input {
 }
 
 .hero-plant-right {
-    bottom: 25% !important;
-    left: 190px !important;
+    bottom: 27% !important;
+    left: 188px !important;
     width: 50px !important;
     z-index: 20;
     transform: scaleX(-1);
     clip-path: inset(0 0 0 25%);
-    /* Cuts leaves overlapping the leg */
-    /* Flip second plant for variety if needed, but the asset is symmetrical */
 }
 
 @media (max-width: 1150px) {
