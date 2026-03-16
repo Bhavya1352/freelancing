@@ -1158,11 +1158,23 @@
 /* .hero-bg-img moved to combined definition below */
 
 .hero-bg-img {
-    max-width: 20vw;
-    /* Scales down automatically on smaller screens */
+    max-width: 20vw; /* Desktop size */
+    width: auto;
     height: auto;
     object-fit: contain;
-    transition: all 0.3s ease;
+    transition: all 0.4s ease;
+}
+
+@media (max-width: 1600px) {
+    .hero-bg-img {
+        max-width: 15vw; /* Laptop safety: Shrink images so they don't hit text */
+    }
+}
+
+@media (max-width: 1400px) {
+    .hero-bg-img {
+        max-width: 12vw; /* Standard laptop safety */
+    }
 }
 
 .hero-bg-left,
@@ -1185,30 +1197,31 @@
     transition: transform 0.3s ease;
 }
 
-@media (max-width: 1550px) {
+@media (max-width: 1600px) {
+    /* Large Laptop: Reduce shift to prevent overlap */
     .hero-side-left {
-        transform: translateX(80px);
-        /* Slightly reduced for safety */
+        transform: translateX(10%);
     }
-
     .hero-side-right {
-        transform: translateX(-60px);
-        /* Slightly reduced for safety */
+        transform: translateX(-8%);
     }
 }
 
 @media (max-width: 1450px) {
-    .hero-bg-img {
-        max-width: 15vw;
-        /* Shrink images more on standard laptops */
-    }
-
+    /* Standard Laptop: Move to edges for safety */
     .hero-side-left {
-        transform: translateX(30px);
+        transform: translateX(40px);
     }
-
     .hero-side-right {
-        transform: translateX(-20px);
+        transform: translateX(-30px);
+    }
+}
+
+@media (max-width: 1300px) {
+    /* Small Laptop: Stick to edges and fade slightly */
+    .hero-side-left, .hero-side-right {
+        transform: translateX(0);
+        opacity: 0.8;
     }
 }
 
