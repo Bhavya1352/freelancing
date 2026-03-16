@@ -2449,9 +2449,9 @@ textarea.form-input {
 }
 
 .hero-plant-right {
-    bottom: 24% !important;
-    left: 185px !important;
-    width: 55px !important;
+    bottom: 23.8% !important;
+    left: 175px !important;
+    width: 65px !important;
     z-index: 20;
     transform: scaleX(-1);
     clip-path: inset(0 0 0 20%);

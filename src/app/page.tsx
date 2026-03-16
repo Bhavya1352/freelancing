@@ -20,7 +20,7 @@ const STATS_DATA = [
 ];
 
 const WHY_US_DATA = {
-    jobkar: [
+    Jobkar: [
         "No Hidden Fees, Just Results",
         "Automated Hiring Process",
         "Endless Global Reach",
@@ -140,10 +140,10 @@ export default function Home() {
                 <div className="container relative z-10 hero-container">
                     <div className="hero-content mx-auto text-center pt-0 pb-0">
                         <div className="flex justify-center mb-6">
-                            <img src="/logo.png" alt="jobkar logo" width="64" height="64" className="object-contain" />
+                            <img src="/logo.png" alt="Jobkar logo" width="64" height="64" className="object-contain" />
                         </div>
                         <h1 className="hero-title text-dark">
-                            Get Your <span className="highlight-pill mx-2">{HERO_DATA.title}</span> With <br /> <span className="text-primary tracking-tight">jobkar.</span>
+                            Get Your <span className="highlight-pill mx-2">{HERO_DATA.title}</span> With <br /> <span className="text-primary tracking-tight">Jobkar.</span>
                         </h1>
                         <p className="hero-subtitle text-gray mt-6 mb-8 max-w-2xl mx-auto leading-relaxed">
                             {HERO_DATA.subtitle}
@@ -223,7 +223,7 @@ export default function Home() {
             {/* 3. Features Dashboard (replaces Feature.png) */}
             <section className="features-section py-16 bg-white border-b border-gray-50">
                 <div className="container">
-                    <div className="features-badge mx-auto">WHY CHOOSE JOBKAR?</div>
+                    <div className="features-badge mx-auto">WHY CHOOSE Jobkar?</div>
                     <h2 className="features-title text-center">
                         Unlock a seamless hiring experience with Jobkar&apos;s powerful tools and features.
                     </h2>
@@ -329,10 +329,10 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* 4. What's New at JobKar? */}
+            {/* 4. What's New at Jobkar? */}
             <section className="whats-new pb-10 pt-6 bg-white">
                 <div className="container" style={{ maxWidth: '1100px', margin: '0 auto' }}>
-                    <h2 className="text-primary font-bold text-[13px] mb-8 text-left w-full pl-2">What's New at jobkar?</h2>
+                    <h2 className="text-primary font-bold text-[13px] mb-8 text-left w-full pl-2">What's New at Jobkar?</h2>
                     <div className="flex flex-nowrap justify-between gap-3 w-full">
                         {STATS_DATA.map((item) => (
                             <div key={item.id} className="pill-dark">
@@ -360,7 +360,7 @@ export default function Home() {
                                     )}
                                     {item.icon === "logo" && (
                                         <div className="flex items-center justify-center p-1.5 bg-white/20 rounded-full">
-                                            <img src="/logo.png" alt="jobkar" width="18" height="18" className="object-contain brightness-0 invert" />
+                                            <img src="/logo.png" alt="Jobkar" width="18" height="18" className="object-contain brightness-0 invert" />
                                         </div>
                                     )}
                                 </div>
@@ -377,7 +377,7 @@ export default function Home() {
             <section className="trusted-by-v2">
                 <div className="container">
                     <h2 className="trusted-title">Trusted By</h2>
-                    <p className="trusted-subtitle">Over 40K+ business growing with jobkar</p>
+                    <p className="trusted-subtitle">Over 40K+ business growing with <span className="font-extrabold text-[#111827]">Jobkar</span></p>
 
                     <div className="container trusted-logos-box">
                         <div className="logos-row">
@@ -449,11 +449,11 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* 5.1 Why JobKar Stands Out */}
+            {/* 5.1 Why Jobkar Stands Out */}
             <section className="stands-out-section">
                 <div className="container">
                     <div className="stands-out-header">
-                        <h2 className="stands-out-title">Why <span className="text-primary">jobkar</span> Stands Out</h2>
+                        <h2 className="stands-out-title">Why <span className="text-primary">Jobkar</span> Stands Out</h2>
                         <p className="stands-out-subtitle">Say goodbye to clunky, outdated systems. Jobkar is here to make your hiring process seamless, efficient, and future-proof.</p>
                     </div>
 
@@ -465,15 +465,15 @@ export default function Home() {
                         <div className="comparison-column">
                             <div className="card-logo">
                                 <div className="choch-wrapper">
-                                    <img src="/logo.png" alt="jobkar logo" width="48" height="48" className="jobkar-logo-primary" />
+                                    <img src="/logo.png" alt="Jobkar logo" width="48" height="48" className="Jobkar-logo-primary" />
                                     <img src="/logo22.png" alt="sparkle" className="choch-sparkle" />
                                 </div>
-                                <span className="font-extrabold">jobkar</span>
+                                <span className="font-extrabold">Jobkar</span>
                             </div>
-                            <div className="comparison-card jobkar-card">
+                            <div className="comparison-card Jobkar-card">
                                 <h3>FEATURES INCLUDED :</h3>
                                 <ul className="features-list">
-                                    {WHY_US_DATA.jobkar.map((feature, idx) => (
+                                    {WHY_US_DATA.Jobkar.map((feature, idx) => (
                                         <li key={idx} className="feature-item">
                                             <div className="feature-icon">
                                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22C55E" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
@@ -526,8 +526,8 @@ export default function Home() {
                         {/* QR Box with Heading at the corner */}
                         <div className="qr-container-integrated">
                             <img
-                                src="/heading scan jobkar.png"
-                                alt="Scan To Download JobKar"
+                                src="/heading scan Jobkar.png"
+                                alt="Scan To Download Jobkar"
                                 className="integrated-heading-img"
                             />
                             <div className="qr-box-v3">
@@ -550,10 +550,10 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* 5.4 See JobKar in Action */}
+            {/* 5.4 See Jobkar in Action */}
             <section className="action-section">
                 <div className="action-container">
-                    <h2 className="action-title">See jobkar in Action!</h2>
+                    <h2 className="action-title">See Jobkar in Action!</h2>
 
                     {/* Dynamic Phone Mockup */}
                     <div className="action-phone-mockup">
@@ -639,7 +639,7 @@ export default function Home() {
                 <div className="faq-container-v2">
                     <div className="faq-left-col">
                         <span className="faq-badge">FAQ</span>
-                        <h2 className="faq-title-main">What would you like to know about jobkar?</h2>
+                        <h2 className="faq-title-main">What would you like to know about Jobkar?</h2>
                         <button className="btn-talk-us">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 1 1-7.6-11.3 8.38 8.38 0 0 1 3.8.9L21 3z" />
@@ -657,23 +657,23 @@ export default function Home() {
                     <div className="faq-right-col">
                         {[
                             {
-                                q: "What is jobkar?",
+                                q: "What is Jobkar?",
                                 a: "Jobkar is a modern hiring platform that connects job seekers with top employers quickly and efficiently using smart matching technology."
                             },
                             {
-                                q: "Is jobkar free to use?",
-                                a: "Yes, jobkar is free for job seekers to create a profile, search for jobs, and apply to unlimited positions."
+                                q: "Is Jobkar free to use?",
+                                a: "Yes, Jobkar is free for job seekers to create a profile, search for jobs, and apply to unlimited positions."
                             },
                             {
-                                q: "How can I apply for a job on jobkar?",
+                                q: "How can I apply for a job on Jobkar?",
                                 a: "Simply create an account, upload your resume, and click the 'Apply' button on any job listing that matches your skills and interests."
                             },
                             {
-                                q: "Can I post jobs on jobkar as an employer?",
+                                q: "Can I post jobs on Jobkar as an employer?",
                                 a: "Absolutely! Employers can register for a business account to post job openings, manage candidates, and access our talent pool."
                             },
                             {
-                                q: "How does jobkar match me with jobs?",
+                                q: "How does Jobkar match me with jobs?",
                                 a: "Our AI-powered matching engine analyzes your skills, experience, and preferences to suggest the most relevant job opportunities for you."
                             }
                         ].map((item, i) => (

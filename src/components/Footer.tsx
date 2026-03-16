@@ -8,8 +8,8 @@ export default function Footer() {
                 <div className="footer-top grid-4">
                     <div className="footer-brand">
                         <Link href="/" className="logo flex items-center gap-2 mb-4">
-                            <img src="/logo.png" alt="jobkar logo" width="32" height="32" className="object-contain" />
-                            <span className="font-semibold text-white" style={{ fontSize: '24px' }}>jobkar</span>
+                            <img src="/logo.png" alt="Jobkar logo" width="32" height="32" className="object-contain" />
+                            <span className="font-semibold text-white" style={{ fontSize: '24px' }}>Jobkar</span>
                         </Link>
                         <p className="text-footer-light text-sm mb-4" style={{ lineHeight: '1.6' }}>
                             Jobkar is the leading platform connecting talented individuals with top-tier companies across India. We simplify the hiring process with AI-driven matching and a seamless user experience.
@@ -49,7 +49,7 @@ export default function Footer() {
                 </div>
 
                 <div className="footer-bottom flex items-center justify-between text-sm text-footer-light mt-8 pt-6 border-t-dark">
-                    <p>&copy; 2026 jobkar. All Rights Reserved.</p>
+                    <p>&copy; 2026 Jobkar. All Rights Reserved.</p>
                     <div className="social-links flex gap-6">
                         <Link href="/">Facebook</Link>
                         <Link href="/">Twitter</Link>
