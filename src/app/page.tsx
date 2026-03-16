@@ -160,7 +160,7 @@ export default function Home() {
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" strokeWidth="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
                             </div>
                             <Link href="/jobs" className="flex-shrink-0 h-full">
-                                <button className="font-bold text-base px-8 h-full rounded-full shadow-lg hover:-translate-y-1 hover:shadow-xl transition-all ml-4 text-white border-none" style={{ background: 'linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%)' }}>Search my job</button>
+                                <button className="btn-primary rounded-full font-bold text-base px-8 h-full shadow-lg hover:-translate-y-1 transition-all ml-4 text-white border-none">Search my job</button>
                             </Link>
                         </div>
                     </div>
