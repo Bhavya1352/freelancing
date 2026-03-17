@@ -19,11 +19,11 @@ export default function Footer() {
                     <div className="footer-links">
                         <h4 className="text-white mb-4 font-semibold" style={{ fontSize: '18px' }}>Company</h4>
                         <ul className="flex flex-col gap-3 text-sm text-footer-light">
-                            <li><Link href="/">About Us</Link></li>
-                            <li><Link href="/">Contact Us</Link></li>
+                            <li><Link href="/about">About Us</Link></li>
+                            <li><Link href="/contact">Contact Us</Link></li>
                             <li><Link href="/">Pricing</Link></li>
-                            <li><Link href="/">Privacy Policy</Link></li>
-                            <li><Link href="/">Terms & Conditions</Link></li>
+                            <li><Link href="/privacy-policy">Privacy Policy</Link></li>
+                            <li><Link href="/terms">Terms & Conditions</Link></li>
                         </ul>
                     </div>
 

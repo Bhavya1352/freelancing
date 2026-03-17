@@ -30,8 +30,8 @@ export default function Navbar() {
                     <Link href="/" className="text-dark" onClick={() => setIsMenuOpen(false)}>Home</Link>
                     <Link href="/blog" className="text-gray-500 hover:text-dark transition-colors" onClick={() => setIsMenuOpen(false)}>Blogs</Link>
                     <Link href="/" className="text-gray-500 hover:text-dark transition-colors" onClick={() => setIsMenuOpen(false)}>Testimonials</Link>
-                    <Link href="/" className="text-gray-500 hover:text-dark transition-colors" onClick={() => setIsMenuOpen(false)}>Contact Us</Link>
-                    <Link href="/" className="text-gray-500 hover:text-dark transition-colors" onClick={() => setIsMenuOpen(false)}>About Us</Link>
+                    <Link href="/contact" className="text-gray-500 hover:text-dark transition-colors" onClick={() => setIsMenuOpen(false)}>Contact Us</Link>
+                    <Link href="/about" className="text-gray-500 hover:text-dark transition-colors" onClick={() => setIsMenuOpen(false)}>About Us</Link>
                     <div className="mobile-only mt-4">
                         <button className="btn-primary rounded-full px-7 py-3 font-semibold text-sm shadow-md w-full">Download Our App</button>
                     </div>
