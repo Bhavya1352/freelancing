@@ -1,0 +1,122 @@
+.terms-page {
+    background-color: #FFFFFF;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.terms-header {
+    background-color: #0056D2; /* Matching the blue in screenshot */
+    color: white;
+    padding: 60px 0 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.terms-header .container {
+    position: relative;
+    z-index: 10;
+}
+
+.terms-header h1 {
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+}
+
+.terms-header p {
+    font-size: 18px;
+    opacity: 0.9;
+    max-width: 700px;
+    line-height: 1.4;
+}
+
+.header-bird {
+    position: absolute;
+    pointer-events: none;
+    filter: brightness(0) invert(1);
+}
+
+.bird-1 {
+    top: 95px; 
+    left: 850px; 
+    width: 48px;
+}
+
+.bird-2 {
+    top: 25px; 
+    left: 980px;
+    width: 42px;
+}
+
+.bird-3 {
+    top: 75px; 
+    left: 1120px;
+    width: 44px;
+}
+
+.terms-content {
+    margin-top: 0;
+    padding: 60px 0 100px 0;
+}
+
+.policy-card {
+    background-color: #F1F5F9;
+    border-radius: 24px;
+    padding: 80px;
+    border: none;
+}
+
+.policy-section {
+    margin-bottom: 40px;
+}
+
+.policy-section p {
+    color: #475569;
+    line-height: 1.8;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+.policy-section h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1E293B;
+    margin-bottom: 16px;
+    margin-top: 48px;
+}
+
+@media (max-width: 1240px) {
+    .header-bird {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .policy-card {
+        padding: 50px;
+    }
+    
+    .terms-header h1 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .policy-card {
+        padding: 40px 20px;
+        border-radius: 16px;
+    }
+    
+    .terms-header h1 {
+        font-size: 36px;
+    }
+    
+    .terms-header p {
+        font-size: 16px;
+    }
+
+    .terms-header {
+        padding: 40px 0 60px 0;
+    }
+}
