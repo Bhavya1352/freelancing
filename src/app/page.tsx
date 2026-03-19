@@ -200,7 +200,8 @@ export default function Home() {
                                             ))}
                                         </div>
 
-                                        <div className="flex items-center gap-1.5 text-gray-500 text-[11px] font-medium mb-5">
+                                        <div className="flex items-center gap-1.5 text-gray-500 text-11px
+ font-medium mb-5">
                                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                                                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                                                 <circle cx="12" cy="10" r="3"></circle>
@@ -209,7 +210,8 @@ export default function Home() {
                                         </div>
 
                                         <div className="flex justify-between items-end w-full">
-                                            <span className="font-bold text-primary text-[15px]">{job.salary}</span>
+                                            <span className="font-bold text-primary text-15px
+">{job.salary}</span>
                                             <span className="text-[10px] text-gray-400 font-semibold">1 hour ago</span>
                                         </div>
                                     </div>
@@ -235,22 +237,23 @@ export default function Home() {
                             <p className="feature-text">
                                 Find and hire talent across India with Jobkar&apos;s wide network of job seekers.
                             </p>
-                            <div className="feature-bars flex-1 flex flex-col justify-center">
+                            <div className="feature-card-content flex flex-col justify-between h-full max-h-160">
                                 <div className="feature-bar feature-bar-green flex justify-between items-center" style={{ paddingRight: '2px' }}>
                                     <span>Pan-India Reach</span>
-                                    <div className="w-[28px] h-[28px] rounded-full bg-white flex items-center justify-center flex-shrink-0 relative overflow-hidden">
-                                        <div className="absolute right-0 top-0 bottom-0 w-1/2 bg-[#185549] rounded-l-full rotate-180" style={{ right: '-4px' }}></div>
+                                    <div className="w-28px h-28px rounded-full bg-white flex items-center justify-center flex-shrink-0 relative overflow-hidden">
+                                        <div className="absolute right-0 top-0 bottom-0 w-1/2 bg-dark-green
+ rounded-l-full rotate-180" style={{ right: '-4px' }}></div>
                                     </div>
                                 </div>
                                 <div className="feature-bar feature-bar-blue flex justify-between items-center" style={{ paddingRight: '2px' }}>
                                     <span>Endless Talent</span>
-                                    <div className="w-[28px] h-[28px] rounded-full bg-transparent flex items-center justify-center flex-shrink-0">
+                                    <div className="w-28px h-28px rounded-full bg-transparent flex items-center justify-center flex-shrink-0">
                                         <svg width="18" height="18" viewBox="0 0 24 24" fill="#fff" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
                                     </div>
                                 </div>
                                 <div className="feature-bar feature-bar-orange flex justify-between items-center" style={{ paddingRight: '2px' }}>
                                     <span>Broad Network</span>
-                                    <div className="w-[28px] h-[28px] rounded-full bg-white flex-shrink-0"></div>
+                                    <div className="w-28px h-28px rounded-full bg-white flex-shrink-0"></div>
                                 </div>
                             </div>
                         </article>
@@ -262,7 +265,8 @@ export default function Home() {
                                 Let your hiring process run on autopilot with smart workflows and integrations.
                             </p>
                             <div className="mt-8 flex-1 flex flex-col items-center justify-center w-full">
-                                <img src="/easy automation.png" alt="Easy Automation" className="max-h-[160px] w-auto object-contain" />
+                                <img src="/easy automation.png" alt="Easy Automation" className="max-h-160
+ w-auto object-contain" />
                             </div>
                         </article>
 
@@ -273,7 +277,8 @@ export default function Home() {
                                 Stay compliant with regulations and meet industry standards effortlessly.
                             </p>
                             <div className="mt-8 flex-1 flex items-center justify-center w-full">
-                                <img src="/compliant.png" alt="Compliant" className="max-h-[180px] w-auto object-contain" />
+                                <img src="/compliant.png" alt="Compliant" className="max-h-180
+ w-auto object-contain" />
                             </div>
                         </article>
 
@@ -308,7 +313,7 @@ export default function Home() {
 
                                 {/* Text Container */}
                                 <div className="absolute z-10" style={{ left: '52px', top: '32px' }}>
-                                    <span className="text-[17px] font-semibold text-[#374151] leading-[1.3] tracking-tight block">
+                                    <span className="text-17px font-semibold text-[#374151] leading-[1.3] tracking-tight block">
                                         No hidden<br />fees!
                                     </span>
                                 </div>
@@ -322,7 +327,8 @@ export default function Home() {
                                 Manage your job postings, applications, and company details from one smart dashboard.
                             </p>
                             <div className="mt-auto -mb-4 flex items-center justify-center w-full">
-                                <img src="/centralized ,amagement.png" alt="Centralized Management" className="w-[105%] max-w-[105%] object-contain" style={{ marginLeft: '-2.5%' }} />
+                                <img src="/centralized ,amagement.png" alt="Centralized Management" className="w-[105%] max-w-105pct
+ object-contain" style={{ marginLeft: '-2.5%' }} />
                             </div>
                         </article>
                     </div>
@@ -332,7 +338,8 @@ export default function Home() {
             {/* 4. What's New at Jobkar? */}
             <section className="whats-new pb-10 pt-6 bg-white">
                 <div className="container" style={{ maxWidth: '1100px', margin: '0 auto' }}>
-                    <h2 className="text-primary font-bold text-[13px] mb-8 text-left w-full pl-2">What's New at Jobkar?</h2>
+                    <h2 className="text-primary font-bold text-13px
+ mb-8 text-left w-full pl-2">What's New at Jobkar?</h2>
                     <div className="flex flex-nowrap justify-between gap-3 w-full">
                         {STATS_DATA.map((item) => (
                             <div key={item.id} className="pill-dark">

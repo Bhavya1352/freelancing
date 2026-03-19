@@ -8,15 +8,15 @@ const BLOG_POSTS = [
         excerpt: 'Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?',
         date: 'Sunday, 1 Jan 2023',
         tags: ['Leadership', 'Management'],
-        img: 'https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=600&auto=format&fit=crop'
+        img: '/bill wash (blog).png'
     },
     {
         id: 2,
         title: 'PM mental models',
         excerpt: 'Mental models are simple expressions of complex processes or relationships.',
         date: 'Sunday, 1 Jan 2023',
-        tags: ['Product', 'Research'],
-        img: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=600&auto=format&fit=crop'
+        tags: ['Product', 'Research', 'Frameworks'],
+        img: '/PM mental models.png'
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ const BLOG_POSTS = [
         excerpt: 'Introduction to Wireframing and its Principles. Learn from the best in the industry.',
         date: 'Sunday, 1 Jan 2023',
         tags: ['Design', 'Research'],
-        img: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=600&auto=format&fit=crop'
+        img: '/wireframing (blog).png'
     },
     {
         id: 4,
@@ -32,7 +32,7 @@ const BLOG_POSTS = [
         excerpt: 'Collaboration can make our teams stronger, and our individual designs better.',
         date: 'Sunday, 1 Jan 2023',
         tags: ['Design', 'Research'],
-        img: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=600&auto=format&fit=crop'
+        img: '/collaboration (blog).png'
     },
     {
         id: 5,
@@ -40,7 +40,7 @@ const BLOG_POSTS = [
         excerpt: 'JavaScript frameworks make development easy with extensive features and functionalities.',
         date: 'Sunday, 1 Jan 2023',
         tags: ['Software Development', 'Tools', 'SaaS'],
-        img: 'https://images.unsplash.com/photo-1627398246654-4f8152dc1612?q=80&w=600&auto=format&fit=crop'
+        img: '/javascript( blog).png'
     },
     {
         id: 6,
@@ -48,7 +48,7 @@ const BLOG_POSTS = [
         excerpt: 'Starting a community doesn\'t need to be complicated, but how do you get started?',
         date: 'Sunday, 1 Jan 2023',
         tags: ['Podcasts', 'Customer Success'],
-        img: 'https://images.unsplash.com/photo-1590602846989-e8178ca0cb5c?q=80&w=600&auto=format&fit=crop'
+        img: '/podcast (blog).png'
     }
 ];
 
@@ -67,12 +67,12 @@ export default function BlogPage() {
                     <div className="recent-posts-grid">
                         <article className="main-featured-post">
                             <div className="post-img-wrap mb-4">
-                                <img src="https://images.unsplash.com/photo-1587560699334-cc4ff634909a?q=80&w=800&auto=format&fit=crop" alt="Featured" />
+                                <img src="/ux review image (blog).png" alt="Featured" />
                             </div>
                             <p className="post-date text-primary text-sm font-semibold mb-2">Olivia Rhye • 1 Jan 2023</p>
                             <h3 className="post-title text-2xl font-bold mb-3 flex items-center justify-between">
-                                UX review presentations
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
+                                <Link href="#" className="hover:text-primary transition-colors">UX review presentations</Link>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M7 17L17 7M17 7H7M17 7V17" strokeLinecap="round" strokeLinejoin="round"/></svg>
                             </h3>
                             <p className="post-excerpt text-gray mb-4">
                                 How do you create compelling presentations that wow your colleagues and impress your managers?
@@ -85,24 +85,59 @@ export default function BlogPage() {
                         </article>
 
                         <div className="side-featured-posts flex flex-col gap-6">
-                            {[1, 2].map((item) => (
-                                <article key={item} className="side-post flex gap-4 items-center">
-                                    <div className="side-post-img-wrap flex-shrink-0">
-                                        <img src={item === 1 ? "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=400&auto=format&fit=crop" : "https://images.unsplash.com/photo-1542744094-24638ea0b4b6?q=80&w=400&auto=format&fit=crop"} alt="Post" />
+                            <article className="side-post flex gap-4 items-center">
+                                <div className="side-post-img-wrap flex-shrink-0">
+                                    <img src="/migrating to linear (blog).png" alt="Post" />
+                                </div>
+                                <div className="side-post-content">
+                                    <p className="post-date text-primary text-sm font-semibold mb-1">Phoenix Baker • 1 Jan 2023</p>
+                                    <h3 className="post-title text-lg font-bold mb-2">Migrating to Linear 101</h3>
+                                    <p className="post-excerpt text-gray text-sm mb-3">Linear helps streamline software projects, sprints, tasks, and bug tracking.</p>
+                                    <div className="post-tags flex gap-2">
+                                        <span className="badge badge-primary">Design</span>
+                                        <span className="badge badge-primary">Research</span>
                                     </div>
-                                    <div className="side-post-content">
-                                        <p className="post-date text-primary text-sm font-semibold mb-1">Phoenix Baker • 1 Jan 2023</p>
-                                        <h3 className="post-title text-lg font-bold mb-2">Migrating to Linear 101</h3>
-                                        <p className="post-excerpt text-gray text-sm mb-3">Linear helps streamline software projects, sprints, tasks, and bug tracking.</p>
-                                        <div className="post-tags flex gap-2">
-                                            <span className="badge badge-primary">Design</span>
-                                            <span className="badge badge-primary">Research</span>
-                                        </div>
+                                </div>
+                            </article>
+                            
+                            <article className="side-post flex gap-4 items-center">
+                                <div className="side-post-img-wrap flex-shrink-0">
+                                    <img src="/building your api (blog).png" alt="Post" />
+                                </div>
+                                <div className="side-post-content">
+                                    <p className="post-date text-primary text-sm font-semibold mb-1">Lana Steiner • 1 Jan 2023</p>
+                                    <h3 className="post-title text-lg font-bold mb-2">Building your API Stack</h3>
+                                    <p className="post-excerpt text-gray text-sm mb-3">The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...</p>
+                                    <div className="post-tags flex gap-2">
+                                        <span className="badge badge-primary">Design</span>
+                                        <span className="badge badge-primary">Research</span>
                                     </div>
-                                </article>
-                            ))}
+                                </div>
+                            </article>
                         </div>
                     </div>
+                </section>
+
+                <section className="middle-featured-section mt-16 mb-16">
+                    <article className="featured-banner flex flex-col md:flex-row gap-8 items-center bg-white border border-gray-100 rounded-2xl overflow-hidden p-6 md:p-0">
+                        <div className="banner-img-wrap w-full md:w-1/2">
+                            <img src="/grid system for better.png" alt="Grid System" className="w-full h-auto object-cover" />
+                        </div>
+                        <div className="banner-content w-full md:w-1/2 md:pr-12">
+                            <p className="post-date text-primary text-sm font-semibold mb-2">Richard Blair • 1 Jan 2023</p>
+                            <h3 className="post-title text-2xl font-bold mb-4 flex items-center justify-between">
+                                Grid system for better Design User Interface
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M7 17L17 7M17 7H7M17 7V17" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                            </h3>
+                            <p className="post-excerpt text-gray mb-6">
+                                A grid system is a design tool used to arrange content on a webpage. It is a series of vertical and horizontal lines that create a matrix of intersecting points, which can be used to align and organize page elements. Grids and systems are used to create a consistent look and feel across a website, and can help to make the layout more visually appealing and easier to navigate.
+                            </p>
+                            <div className="post-tags flex gap-2">
+                                <span className="badge badge-primary">Design</span>
+                                <span className="badge badge-primary">Interface</span>
+                            </div>
+                        </div>
+                    </article>
                 </section>
 
                 <section className="all-posts-section">
@@ -117,7 +152,7 @@ export default function BlogPage() {
                                 <p className="post-date text-primary text-sm font-semibold mb-2">{post.date}</p>
                                 <h3 className="post-title text-xl font-bold mb-3 flex items-center justify-between">
                                     {post.title}
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M7 17L17 7M17 7H7M17 7V17" strokeLinecap="round" strokeLinejoin="round"/></svg>
                                 </h3>
                                 <p className="post-excerpt text-gray text-sm mb-4">
                                     {post.excerpt}

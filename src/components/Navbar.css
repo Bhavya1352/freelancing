@@ -35,21 +35,12 @@
     color: var(--primary);
 }
 
-.mobile-only {
-    display: none;
-}
-
-.desktop-only {
-    display: block;
-}
-
 .mobile-menu-toggle {
     display: none;
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
     height: 21px;
-    /* width :  */
     background: transparent;
     border: none;
     cursor: pointer;
@@ -65,7 +56,7 @@
     transition: all 0.3s ease;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .nav-links {
         position: fixed;
         top: 0;
@@ -102,11 +93,42 @@
     }
 
     .desktop-only {
-        display: none;
+        display: none !important;
     }
 
     .mobile-only {
-        display: block;
-        width: 80%;
+        display: block !important;
+        width: 100%;
     }
+}
+
+@media (min-width: 769px) {
+    .nav-links {
+        display: flex !important;
+        position: static !important;
+        background: transparent !important;
+        width: auto !important;
+        height: auto !important;
+        box-shadow: none !important;
+    }
+
+    .mobile-only {
+        display: none !important;
+    }
+    
+    .desktop-only {
+        display: block !important;
+    }
+
+    .mobile-menu-toggle {
+        display: none !important;
+    }
+}
+
+/* Aggressive hide for Next.js indicator */
+next-route-announcer,
+#next-error-22-indicator,
+[data-nextjs-toast-wrapper],
+.next-dev-indicator {
+    display: none !important;
 }

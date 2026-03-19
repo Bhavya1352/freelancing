@@ -18,7 +18,7 @@
 }
 
 .terms-header h1 {
-    font-size: 56px;
+    font-size: clamp(32px, 8vw, 56px);
     font-weight: 800;
     margin-bottom: 16px;
     letter-spacing: -0.02em;
@@ -94,29 +94,26 @@
 
 @media (max-width: 1024px) {
     .policy-card {
-        padding: 50px;
+        padding: 40px;
     }
     
     .terms-header h1 {
-        font-size: 48px;
+        font-size: clamp(32px, 6vw, 48px);
     }
 }
 
 @media (max-width: 768px) {
     .policy-card {
-        padding: 40px 20px;
+        padding: 30px 20px;
         border-radius: 16px;
     }
     
-    .terms-header h1 {
-        font-size: 36px;
-    }
-    
-    .terms-header p {
-        font-size: 16px;
+    .terms-header {
+        padding: 60px 20px 80px;
+        text-align: center;
     }
 
-    .terms-header {
-        padding: 40px 0 60px 0;
+    .terms-header p {
+        margin: 0 auto;
     }
 }
