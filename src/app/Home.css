@@ -2687,21 +2687,16 @@ textarea.form-input {
     }
 }
 
-.bird-scan-decoration {
+.bird-static-decoration {
     pointer-events: none;
-    animation: birdBob 3s ease-in-out infinite;
-}
-
-@keyframes birdBob {
-    0%, 100% { transform: translateY(0) rotate(0); }
-    50% { transform: translateY(-10px) rotate(5deg); }
 }
 
 @media (max-width: 1024px) {
-    .bird-scan-decoration {
-        bottom: -15px !important;
-        right: -10px !important;
-        width: 50px !important;
+    .bird-static-decoration {
+        top: -65px !important;
+        right: 18px !important;
+        width: 48px !important;
+        bottom: auto !important;
     }
 }
 

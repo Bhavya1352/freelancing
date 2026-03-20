@@ -531,7 +531,7 @@ export default function Home() {
                         {/* QR Box with Heading at the corner */}
                         <div className="qr-container-integrated">
                             <img
-                                src="/heading scan Jobkar.png"
+                                src="/heading scan jobkar.png"
                                 alt="Scan To Download Jobkar"
                                 className="integrated-heading-img"
                             />
@@ -541,7 +541,7 @@ export default function Home() {
                                 <img
                                     src="/yellow bird.png"
                                     alt="Yellow Bird"
-                                    className="absolute -bottom-6 -right-6 w-16 h-auto z-20 bird-scan-decoration"
+                                    className="absolute -top-12 -right-8 w-16 h-auto z-20 bird-static-decoration"
                                 />
                             </div>
                         </div>
