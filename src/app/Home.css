@@ -693,7 +693,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .trusted-title {
         font-size: 32px;
         margin-bottom: 8px;
@@ -705,17 +705,37 @@
     }
 
     .logos-row {
-        gap: 30px 40px; /* Vertical gap 30px, Horizontal gap 40px */
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 20px;
+        justify-items: center;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .logo-item:last-child {
+        grid-column: span 2;
     }
 
     .logo-name {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .logo-item {
-        flex: 0 1 auto;
+        flex: none;
+        width: 100%;
         justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-name {
+        font-size: 15px;
+    }
+    
+    .logo-icon svg {
+        width: 24px;
+        height: 24px;
     }
 }
 
@@ -1752,20 +1772,47 @@
     background-color: #FEF2F2;
 }
 
-/* What's New */
+/* What's New Section Consolidated */
+.whats-new-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    width: 100%;
+}
+
 .pill-dark {
     background-color: #212121;
     color: white;
-    padding: 10px 22px;
+    padding: 12px 20px;
     border-radius: 999px;
     display: flex;
     align-items: center;
     gap: 12px;
-    text-align: left;
-    flex: 1;
-    min-width: 200px;
-    min-height: 65px;
     border: 1px solid rgba(255, 255, 255, 0.05);
+    height: 100%;
+    min-height: 70px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.pill-dark:hover {
+    background-color: #2a2a2a;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 1024px) {
+    .whats-new-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .whats-new-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .pill-dark {
+        min-height: 60px;
+    }
 }
 
 .no-scrollbar::-webkit-scrollbar {
@@ -1775,13 +1822,6 @@
 .no-scrollbar {
     -ms-overflow-style: none;
     scrollbar-width: none;
-}
-
-@media (max-width: 640px) {
-    .pill-dark {
-        max-width: 100%;
-        min-width: 100%;
-    }
 }
 
 /* In Action Dark */
@@ -2644,6 +2684,24 @@ textarea.form-input {
         transform: translateX(-50%);
         top: 0;
         width: 120px;
+    }
+}
+
+.bird-scan-decoration {
+    pointer-events: none;
+    animation: birdBob 3s ease-in-out infinite;
+}
+
+@keyframes birdBob {
+    0%, 100% { transform: translateY(0) rotate(0); }
+    50% { transform: translateY(-10px) rotate(5deg); }
+}
+
+@media (max-width: 1024px) {
+    .bird-scan-decoration {
+        bottom: -15px !important;
+        right: -10px !important;
+        width: 50px !important;
     }
 }
 

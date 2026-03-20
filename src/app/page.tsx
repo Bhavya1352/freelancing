@@ -15,8 +15,8 @@ const HERO_DATA = {
 const STATS_DATA = [
     { id: 1, title: "Thousands of job seekers daily.", color: "#F59E0B", icon: "seekers" },
     { id: 2, title: "500+ companies posting jobs.", color: "#3B82F6", icon: "companies" },
-    { id: 3, title: "AI matches perfect opportunities.", color: "#E5E7EB", icon: "ai" },
-    { id: 4, title: "One-click job applications.", color: "#F59E0B", icon: "logo" }
+    { id: 3, title: "AI matches perfect opportunities.", color: "#E5E7EB", icon: "icon3" },
+    { id: 4, title: "One-click job applications.", color: "#F59E0B", icon: "icon4" }
 ];
 
 const WHY_US_DATA = {
@@ -340,12 +340,12 @@ export default function Home() {
                 <div className="container" style={{ maxWidth: '1100px', margin: '0 auto' }}>
                     <h2 className="text-primary font-bold text-13px
  mb-8 text-left w-full pl-2">What's New at Jobkar?</h2>
-                    <div className="flex flex-nowrap justify-between gap-3 w-full">
+                    <div className="whats-new-grid">
                         {STATS_DATA.map((item) => (
                             <div key={item.id} className="pill-dark">
                                 <div className="flex-shrink-0 w-9 h-9 bg-black/20 rounded-full flex items-center justify-center border border-white/5">
                                     {item.icon === "seekers" && (
-                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="18" cy="6" r="3" fill={item.color} />
                                             <circle cx="6" cy="18" r="3" fill={item.color} />
                                             <circle cx="18" cy="18" r="3" fill={item.color} />
@@ -353,21 +353,19 @@ export default function Home() {
                                         </svg>
                                     )}
                                     {item.icon === "companies" && (
-                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={item.color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                        <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke={item.color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                             <path d="M4 7h16v14H4z" fill={item.color} fillOpacity="0.2" />
                                             <path d="M4 12h16M8 7V3h8v4" />
                                         </svg>
                                     )}
-                                    {item.icon === "ai" && (
-                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={item.color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                            <path d="M12 2a5 5 0 0 0-5 5c0 2 1.5 3 2 5v2h6v-2c.5-2 2-3 2-5z" fill={item.color} fillOpacity="0.2" />
-                                            <path d="M9 18h6" />
-                                            <path d="M10 22h4" />
-                                        </svg>
+                                    {item.icon === "icon3" && (
+                                        <div className="w-6 h-6 flex items-center justify-center">
+                                            <img src="/what new at jobkar icon3.png" alt="icon3" className="w-full h-full object-contain" />
+                                        </div>
                                     )}
-                                    {item.icon === "logo" && (
-                                        <div className="flex items-center justify-center p-1.5 bg-white/20 rounded-full">
-                                            <img src="/logo.png" alt="Jobkar" width="18" height="18" className="object-contain brightness-0 invert" />
+                                    {item.icon === "icon4" && (
+                                        <div className="w-6 h-6 flex items-center justify-center">
+                                            <img src="/whats new at jobkar icon4.png" alt="icon4" className="w-full h-full object-contain" />
                                         </div>
                                     )}
                                 </div>
@@ -537,9 +535,14 @@ export default function Home() {
                                 alt="Scan To Download Jobkar"
                                 className="integrated-heading-img"
                             />
-                            <div className="qr-box-v3">
+                            <div className="qr-box-v3 relative">
                                 <div className="qr-accent"></div>
                                 <img src="/qr.png" alt="QR Code" className="qr-main-img" />
+                                <img
+                                    src="/yellow bird.png"
+                                    alt="Yellow Bird"
+                                    className="absolute -bottom-6 -right-6 w-16 h-auto z-20 bird-scan-decoration"
+                                />
                             </div>
                         </div>
 
