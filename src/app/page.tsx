@@ -343,7 +343,7 @@ export default function Home() {
                     <div className="whats-new-grid">
                         {STATS_DATA.map((item) => (
                             <div key={item.id} className="pill-dark">
-                                <div className="flex-shrink-0 w-9 h-9 bg-black/20 rounded-full flex items-center justify-center border border-white/5">
+                                <div className="flex-shrink-0 w-9 h-9 bg-black/20 rounded-full flex items-center justify-center border border-white/5 overflow-hidden">
                                     {item.icon === "seekers" && (
                                         <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="18" cy="6" r="3" fill={item.color} />
@@ -538,11 +538,7 @@ export default function Home() {
                             <div className="qr-box-v3 relative">
                                 <div className="qr-accent"></div>
                                 <img src="/qr.png" alt="QR Code" className="qr-main-img" />
-                                <img
-                                    src="/yellow bird.png"
-                                    alt="Yellow Bird"
-                                    className="absolute -top-12 -right-8 w-16 h-auto z-20 bird-static-decoration"
-                                />
+
                             </div>
                         </div>
 
