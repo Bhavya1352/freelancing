@@ -237,7 +237,7 @@ export default function Home() {
                             <p className="feature-text">
                                 Find and hire talent across India with Jobkar&apos;s wide network of job seekers.
                             </p>
-                            <div className="feature-card-content flex flex-col justify-between h-full max-h-160">
+                            <div className="feature-card-content flex flex-col gap-3 mt-4">
                                 <div className="feature-bar feature-bar-green flex justify-between items-center" style={{ paddingRight: '2px' }}>
                                     <span>Pan-India Reach</span>
                                     <div className="w-28px h-28px rounded-full bg-white flex items-center justify-center flex-shrink-0 relative overflow-hidden">
@@ -568,30 +568,30 @@ export default function Home() {
                             {/* App Header */}
                             <div className="mock-app-header">
                                 <div className="mock-back-btn"></div>
-                                <div className="mock-app-title">Givingli Cash</div>
+                                <div className="mock-app-title">Jobkar Wallet</div>
                             </div>
 
-                            {/* Debit Card Visual */}
+                            {/* Wallet Visual */}
                             <div className="mock-card-container">
                                 <div className="mock-debit-card">
                                     <div className="mock-card-brand"></div>
                                     <div className="mock-waves-bg"></div>
-                                    <div className="mock-card-name">Givingli Cash</div>
+                                    <div className="mock-card-name">Jobkar Earnings</div>
                                 </div>
                             </div>
 
-                            {/* Amount Controls */}
+                            {/* Payout Controls */}
                             <div className="mock-amount-section">
-                                <span className="mock-label">Select Amount</span>
+                                <span className="mock-label">Select Payout Amount</span>
                                 <div className="mock-controls">
                                     <div className="mock-minus">−</div>
-                                    <div className="mock-amount"><span>$</span> 10</div>
+                                    <div className="mock-amount"><span>₹</span> 500</div>
                                     <div className="mock-plus">+</div>
                                 </div>
                             </div>
 
-                            {/* Add Gift Button */}
-                            <div className="mock-footer-btn">Add Gift</div>
+                            {/* Withdraw Button */}
+                            <div className="mock-footer-btn">Withdraw Earnings</div>
                         </div>
                     </div>
 
@@ -715,19 +715,19 @@ export default function Home() {
                         <span className="small-text">Stay in Contact</span>
                         <h2>Get in Touch</h2>
 
-                        <form className="contact-form" onSubmit={(e) => e.preventDefault()}>
+                        <form className="contact-form" onSubmit={(e) => { e.preventDefault(); alert('Message sent successfully! (Mock API Response)'); }}>
                             <div className="form-grid">
                                 <div className="form-field">
-                                    <input type="text" placeholder="Name" className="form-input" />
+                                    <input type="text" placeholder="Name" className="form-input" required />
                                 </div>
                                 <div className="form-field">
-                                    <input type="text" placeholder="Phone No." className="form-input" />
+                                    <input type="text" placeholder="Phone No." className="form-input" required />
                                 </div>
                                 <div className="form-field full-width">
-                                    <input type="email" placeholder="Email Id" className="form-input" />
+                                    <input type="email" placeholder="Email Id" className="form-input" required />
                                 </div>
                                 <div className="form-field full-width">
-                                    <textarea placeholder="Anything you wanna say..." className="form-input"></textarea>
+                                    <textarea placeholder="Anything you wanna say..." className="form-input" required></textarea>
                                 </div>
                             </div>
                             <button type="submit" className="submit-btn shadow-lg">Send Message</button>

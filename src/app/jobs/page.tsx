@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import { useState, useEffect } from 'react';
 import { JOBS } from '../../data/jobsData';
 import './Jobs.css';
 
@@ -12,6 +13,26 @@ const FILTERS = {
 };
 
 export default function JobsPage() {
+    const [jobs, setJobs] = useState<any[]>([]);
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        // Simulating an API Fetch
+        const fetchJobs = async () => {
+            setIsLoading(true);
+            try {
+                // Simulate network delay
+                await new Promise(resolve => setTimeout(resolve, 1200));
+                setJobs(JOBS);
+            } catch (error) {
+                console.error("Error fetching jobs:", error);
+            } finally {
+                setIsLoading(false);
+            }
+        };
+
+        fetchJobs();
+    }, []);
     return (
         <main className="jobs-page-v3">
             <section className="jobs-hero-v3">
@@ -108,41 +129,48 @@ export default function JobsPage() {
                         </div>
 
                         <div className="job-feed-list">
-                            {JOBS.map(job => (
-                                <Link href={`/jobs/${job.id}`} key={job.id} className="job-card-premium">
-                                    <div className="logo-wrap" style={{ backgroundColor: job.logoColor }}>
-                                        {job.initial}
-                                    </div>
-                                    <div className="card-info">
-                                        <div className="company-top">
-                                            <span className="company-name">{job.company}</span>
-                                            <span className="post-time">
-                                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                                                {job.time}
-                                            </span>
+                            {isLoading ? (
+                                <div className="loading-state">
+                                    <div className="loader"></div>
+                                    <p>Finding the best jobs for you...</p>
+                                </div>
+                            ) : (
+                                jobs.map(job => (
+                                    <Link href={`/jobs/${job.id}`} key={job.id} className="job-card-premium">
+                                        <div className="logo-wrap" style={{ backgroundColor: job.logoColor }}>
+                                            {job.initial}
                                         </div>
-                                        <h3 className="job-main-title">
-                                            {job.title}
-                                            {job.isNew && <span className="tag-new">New post</span>}
-                                        </h3>
-                                        <div className="meta-info-strip">
-                                            <div className="meta-point">
-                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                                                {job.location}
+                                        <div className="card-info">
+                                            <div className="company-top">
+                                                <span className="company-name">{job.company}</span>
+                                                <span className="post-time">
+                                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                                                    {job.time}
+                                                </span>
                                             </div>
-                                            <div className="meta-point">
-                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                                                {job.type}
+                                            <h3 className="job-main-title">
+                                                {job.title}
+                                                {job.isNew && <span className="tag-new">New post</span>}
+                                            </h3>
+                                            <div className="meta-info-strip">
+                                                <div className="meta-point">
+                                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                                    {job.location}
+                                                </div>
+                                                <div className="meta-point">
+                                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                                                    {job.type}
+                                                </div>
+                                                <div className="meta-point">
+                                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                                                    {job.salary}
+                                                </div>
                                             </div>
-                                            <div className="meta-point">
-                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
-                                                {job.salary}
-                                            </div>
+                                            <p className="job-summary">Mollis in labore um tempor lorem incididunt inere. Duis eu ex ad sunt. Pariatur sint culpa dol. Incididunt. eiusmod culpa laborum tempor lorem incididunt.</p>
                                         </div>
-                                        <p className="job-summary">Mollis in labore um tempor lorem incididunt inere. Duis eu ex ad sunt. Pariatur sint culpa dol. Incididunt. eiusmod culpa laborum tempor lorem incididunt.</p>
-                                    </div>
-                                </Link>
-                            ))}
+                                    </Link>
+                                ))
+                            )}
                         </div>
 
                         <div className="pagination-wrap">

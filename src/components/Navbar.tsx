@@ -37,8 +37,11 @@ export default function Navbar() {
                     </div>
                 </nav>
 
-                <div className="nav-actions desktop-only">
-                    <button className="btn-primary rounded-full px-7 py-3 font-semibold text-sm shadow-md hover:-translate-y-1 transition-transform">Download Our App</button>
+                <div className="nav-actions flex items-center gap-4 desktop-only">
+                    <Link href="/login" className="text-gray-500 font-bold hover:text-primary transition-colors">Login</Link>
+                    <Link href="/signup">
+                        <button className="btn-primary rounded-full px-7 py-3 font-semibold text-sm shadow-md hover:-translate-y-1 transition-transform">Signup</button>
+                    </Link>
                 </div>
             </div>
         </header>
